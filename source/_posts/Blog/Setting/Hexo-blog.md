@@ -87,8 +87,6 @@ $ hexo deploy
 명령어를 사용해 사이트를 배포한다.
 사이트 주소는 위 #URL에서 입력한 [**https://유저아이디.github.io**]와 동일하다.
 
-#
 
-
-메모:
-- https://github.com/hangack/Codding-base/blob/main/Blog_Hexo/20211028.md?plain=1
+### 외부링크
+ - [hexo docs(sub kor)](https://hexo.io/ko/docs/index.html)

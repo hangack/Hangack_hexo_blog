@@ -7,12 +7,12 @@ tags:
   - 블로그
   - 설정
   - hexo
-date: 2021-11-12 15:14:52
+date: 2021-11-13 15:14:52
 ---
 
 분명 MarkDown math tutorial대로 수식을 작성하고 Ipython notebook에서도 정상적으로 출력되는걸 확인했지만,
 Hexo post는 아래처럼 읽어내지를 못한다.
-![으아악 아니야!](/images/Hexo_mathjax/hexoNotMath.png)
+![으아악 아니야!](/images/2111/Hexo_mathjax/hexoNotMath.png)
 
 ## Hexo plugin 설치
 

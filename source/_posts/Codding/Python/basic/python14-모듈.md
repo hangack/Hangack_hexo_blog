@@ -34,7 +34,7 @@ plt.plot([1,2,3,4])
 
 
     
-![그래프 예시](/images/Python0/python14.png)
+![그래프 예시](/images/2111/Python0/python14.png)
     
 
 

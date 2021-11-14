@@ -2,8 +2,10 @@
 title: '평가지표: MAE, MSE, RMSE'
 categories:
   - 빅데이터
-  - 수식
+  - 통계
 tags:
+  - 빅데이터
+  - 수식
 date: 2021-11-12 14:52:57
 ---
 

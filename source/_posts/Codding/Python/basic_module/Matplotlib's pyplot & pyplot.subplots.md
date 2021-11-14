@@ -129,7 +129,7 @@ plt.show()
 
 
 
-![](/images/pyplot/pyplot01.png)
+![](/images/2111/pyplot/pyplot01.png)
 
 
 
@@ -150,7 +150,7 @@ plt.show()
 
 
 
-![](/images/pyplot/pyplot02.png)
+![](/images/2111/pyplot/pyplot02.png)
 
 
 
@@ -187,7 +187,7 @@ plt.show
 
 
 
-![](/images/pyplot/pyplot03.png)
+![](/images/2111/pyplot/pyplot03.png)
 
 
 
@@ -230,7 +230,7 @@ plt.show
 
 
 
-![](/images/pyplot/pyplot04.png)
+![](/images/2111/pyplot/pyplot04.png)
 
 
 

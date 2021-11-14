@@ -17,7 +17,7 @@ Plotly를 외부 컴퓨터에서 잘 사용하다가 집에서 모듈을 설치�
 ```
 ModuleNotFoundError: No module named 'plotly'
 ```
-<img src="\images\ModuleNotFound\PLOTLY 1.png">
+<img src="\images\2111\ModuleNotFound\PLOTLY 1.png">
 
 오류를 뱉어내더라.
 
@@ -33,7 +33,7 @@ cmd에서 plotly를 확인해도 깔려 있는데, 막상 로컬 소프트인 ju
 결국 로컬 jupyter에서 외부 모듈을 적용시키기 위해선 anaconda 경로로 설치할 필요가 있고, 많은 방법 중 하나가 Anaconda Prompt다.
 
 아나콘다 경로 혹은 시작화면 앱 찾기에서 Anaconda Prompt를 실행하고
-<img src="\images\ModuleNotFound\PLOTLY 2.png">
+<img src="\images\2111\ModuleNotFound\PLOTLY 2.png">
 
 ### 2. plotly 설치
 
@@ -41,12 +41,12 @@ Plotly 설치를 Anaconda prompt에서 진행한다.
 ```
 > pip install plotly==5.3.1
 ```
-<img src="\images\ModuleNotFound\PLOTLY 3.png">
+<img src="\images\2111\ModuleNotFound\PLOTLY 3.png">
 
 ### 3. Jupyter 모듈 오류 해결
 
 anaconda 로컬 소프트인 jupyter notebook에서 정상적으로 import되는 걸 확인할 수 있다.
-<img src="\images\ModuleNotFound\PLOTLY 4.png">
+<img src="\images\2111\ModuleNotFound\PLOTLY 4.png">
 
 ### 그렇다면 구글, 당신이 신이란거야?
  - [anaconda plotly](https://stackoverflow.com/questions/42521772/importerror-no-module-named-plotly-plotly-in-linuxmint17-3/48774224#48774224)

@@ -1,8 +1,10 @@
 ---
 title: 'Markdown 하이퍼링크, 이미지 넣기'
 categories:
-tags: 
- - 블로그
+  - 연습
+  - 마크다운
+tags:
+  - 마크다운
 date: 2021-11-09 16:27:25
 ---
 

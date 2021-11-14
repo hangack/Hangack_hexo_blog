@@ -19,7 +19,7 @@ $ git config --global user.email email@mail.com
 ```
 
 위 명령어를 입력하고서 계정 연동이 필요한 작업을 하게되면 웹 브라우저 혹은 code를 통한 인증을 요구한다.
-![GitHub 연동](/images/GitBash_connect/연동.png)
+![GitHub 연동](/images/2111/GitBash_connect/연동.png)
 
 
 ## Git Bash: 연동해제
@@ -30,7 +30,7 @@ $ git config --global user.email email@mail.com
 ### 자격증명제거
 
 [제어판] - [사용자 계정] - [자격 증명 관리] - [Windows 자격 증명] 순으로 진입하면 Git~ 으로 연동된 자격 증명을 확인 할 수 있다.
-![window 자격증명](/images/GitBash_connect/연동해제.png)
+![window 자격증명](/images/2111/GitBash_connect/연동해제.png)
 
 자격 증명 [제거]를 클릭하면 Git Bash에서 연동은 우선 해제된다.
 
@@ -39,6 +39,6 @@ $ git config --global user.email email@mail.com
 ### cookie 제거
 
 자격 증명을 제거한 다음 hithub 엑세스에 사용한 웹 브라우저의 캐쉬를 삭제하면 다음 연동 때 cookie로 남긴 데이터가 없기 때문에 추가 인증을 요구한다.
-![쿠키 제거](/images/GitBash_connect/del_cookie.png)
+![쿠키 제거](/images/2111/GitBash_connect/del_cookie.png)
 
 외부에서 로그인 했을 경우엔 시크릿 모드를 쓰거나 발자취를 지우는게 보안상 중요.

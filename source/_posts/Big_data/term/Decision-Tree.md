@@ -2,7 +2,7 @@
 title: 의사결정트리(Decision Tree)에 대한 간단 설명
 categories:
   - 빅데이터
-  - 용어 정리
+  - 용어
 tags:
   - 빅데이터
 date: 2021-11-04 14:58:39
@@ -25,12 +25,12 @@ date: 2021-11-04 14:58:39
 ## 그러면 의사결정트리는 어떻게 만들어질까?
 우선 나라마다 정의한 경차에 대한 포멧이 다르기 때문에 간단한 문답문을 이용해 어느 나라의 포멧을 불러올지 결정한다.
 
-<img src="/images/Dicision Tree Basic/car0.png" alt="국가포멧">
+<img src="/images/2111/Dicision Tree Basic/car0.png" alt="국가포멧">
 
 다음으로 배기량이나 차량의 크기같은 포멧이 만족하는지 하나씩 Y/N 문답을 절차적으로 진행한다. 효율성에 관해선 다음에 설명하고 이번 포스팅에선 배기량부터 순차적으로 진행한다.
 
-<img src="/images/Dicision Tree Basic/car1.png" alt="배기량">
-<img src="/images/Dicision Tree Basic/car4.png" alt="높이">
+<img src="/images/2111/Dicision Tree Basic/car1.png" alt="배기량">
+<img src="/images/2111/Dicision Tree Basic/car4.png" alt="높이">
 
 위와 같은 의사결정트리(Decision Tree) 과정을 통해 한국의 법률에서 경차로 정의되는 차량을 나눌 수 있다.
 객체의 종류가 적다면 큰 문제는 없겠지만, 차량 객체 각각에 대한 데이터를 가지고 있고 법률적인 포멧이 있다면 수 많은 차량에 대한 포멧을 컴퓨터 작업을 통해 간단히 나눌 수 있을 것이다.

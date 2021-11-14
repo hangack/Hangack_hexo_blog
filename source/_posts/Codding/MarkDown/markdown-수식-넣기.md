@@ -6,6 +6,7 @@ categories:
   - 마크다운
 tags:
   - 마크다운
+  - 수식
 ---
 
 ## mathjax
