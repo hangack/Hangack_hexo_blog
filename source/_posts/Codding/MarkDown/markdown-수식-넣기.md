@@ -50,7 +50,7 @@ $x^{12}$
 ```
 $x^{12}$
 
-단, 중괄호를 mathjax에서 하나의 문자열로 처리하기 위해 사용되므로 중괄호를 사용하는 식에서는 escape(\)로 문법 인식이 아닌 문자 인식으로 바꿔줘야한다.
+단, 중괄호를 mathjax에서 하나의 문자열로 처리하기 위해 사용되므로 중괄호를 사용하는 식에서는 escape(\\)로 문법 인식이 아닌 문자 인식으로 바꿔줘야한다.
 
 ```markdown
 $x_5 = [[\{(x_1)+x_2\}+x_3]+x_4]$
@@ -76,37 +76,43 @@ $$v{x \choose 0}$$
 ```markdown
 $$
 X\Bigg\{
-\begin{array}{ccc}
-    x_{11} & x_{12} & x_{13}\\
-    x_{21} & x_{22} & x_{23}
+\begin{array}{c}
+    x_{1}\\
+    x_{2}
 \end{array}
 $$
 ```
 $$
 X\Bigg\{
-\begin{array}{ccc}
-    x_{11} & x_{12} & x_{13}\\
-    x_{21} & x_{22} & x_{23}
+\begin{array}{c}
+    x_{1}\\
+    x_{2}
 \end{array}
 $$
 
 #### P-matrix
 ```markdown
 $$
-n=
+L=
 \begin{pmatrix}
-    a \\
-    b \\
-    c 
+    b_1   & b_2  & b_3  & \cdots & b_{n-1}& b_n\\
+    s_1   & 0    & 0    & \cdots & 0      & 0\\
+    0     & s_2  & 0    & \cdots & 0      & 0\\
+    0     & 0    & s_3  & \cdots & 0      & 0\\
+    \vdots&\vdots&\vdots& \ddots & \vdots &\vdots\\
+    0     & 0    & 0    & \cdots & s_{n-1}& 0\\
 \end{pmatrix}
 $$
 ```
 $$
-n=
+L=
 \begin{pmatrix}
-    a \\
-    b \\
-    c 
+    b_1   & b_2  & b_3  & \cdots & b_{n-1}& b_n\\
+    s_1   & 0    & 0    & \cdots & 0      & 0\\
+    0     & s_2  & 0    & \cdots & 0      & 0\\
+    0     & 0    & s_3  & \cdots & 0      & 0\\
+    \vdots&\vdots&\vdots& \ddots & \vdots &\vdots\\
+    0     & 0    & 0    & \cdots & s_{n-1}& 0\\
 \end{pmatrix}
 $$
 
@@ -205,4 +211,4 @@ $$
 = \frac{\vert\hat i\vert^2\times 1}{n} = \frac 1n
 $$
 
-특수문자는 굉장히 다양하므로 삽입하고자 하는 문자를 LaTex(혹은 Methjax) 검색어에 붙여 검색하자.
+특수문자는 굉장히 다양하므로 삽입하고자 하는 문자를 LaTex(혹은 Mathjax) 검색어에 붙여 검색하자.
