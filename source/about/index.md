@@ -79,5 +79,9 @@ date: 2021-11-14 22:37:45
 
    
 
+### 외부링크
+ - [github](https://github.com/hangack)
+ - [utube](https://www.youtube.com/channel/UCQuHrr7-mBtutw9V94XGH-g)
+
 ### contect
  - email: hangack7@gmail.com
