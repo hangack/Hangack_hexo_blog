@@ -30,4 +30,4 @@ $ hexo new draft <title>
 
 
 ### 외부링크
- - [Hexo 명령어](https://hexo.io/ko/docs/commands.html)
+ - [Hexo 명령어](https://hexo.io/ko/docs/commands.html) 
