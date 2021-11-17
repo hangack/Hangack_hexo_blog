@@ -15,7 +15,6 @@ date: 2021-11-02 18:22:56
 ## 테마 선택
 
 [hexo themes](https://hexo.io/themes/)에서 다양한 오픈소스 테마를 얻을 수 있다.
-게임을 하더라도 바닐라 버전을 좋아해서 깔끔한 테마를 원했고, 설정을 조금 변경한다면 [icarus 테마](https://ppoffice.github.io/hexo-theme-icarus/)가 깔끔한데다 업데이트도 활발하다고 생각한다.
 
 
 ## icarus 시작하기
