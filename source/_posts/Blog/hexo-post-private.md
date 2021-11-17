@@ -2,8 +2,10 @@
 title: Hexo 포스트 비공개로 설정하기
 categories:
   - 블로그
+  - 설정
 tags: 
   - 블로그
+  - 설정
   - hexo
 date: 2021-11-16 02:37:18
 ---

@@ -41,5 +41,3 @@ $ hexo deploy
 ```
 
 More info: [Deployment](https://hexo.io/docs/one-command-deployment.html)
-
-UTF-8 한글입력 test
