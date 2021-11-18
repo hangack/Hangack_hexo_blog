@@ -4,6 +4,7 @@ categories:
   - 연습
   - 파이썬
   - 코딩
+  - 2021 Kaggle_Survey
 tags:
   - 파이썬
   - code

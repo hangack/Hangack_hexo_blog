@@ -2,10 +2,8 @@
 title: Hexo 블로그 about 페이지 생성하기
 categories:
   - 블로그
-  - 설정
 tags: 
   - 블로그
-  - 설정
   - hexo
 date: 2021-11-17 10:01:26
 ---

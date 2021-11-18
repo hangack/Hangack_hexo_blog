@@ -54,3 +54,8 @@ notebook 설정을 열어서 아래 두 경로를 지워 config 설정을 참조
 <img src="/images/2111/주피터 경로 변경/J6.png" alt="path 변경">
 
 지정한 경로에서 잘 열리지만 path 내부에서만 작업하므로 작업환경에서 가장 편한 path를 설정하는걸 권장한다.
+
+
+
+### 외부링크
+ - [주피터 노트북 환경설정 : 시작폴더 변경방법](https://ooyoung.tistory.com/7)
