@@ -8,6 +8,31 @@ categories:
 tags:
   - 파이썬
   - code
+widgets:
+  - type: profile
+    position: left
+    social_links:
+        Github:
+            icon: fab fa-github
+            url: 'https://github.com/hangack'
+        Youtube:
+            icon: fab fa-youtube
+            url: 'https://www.youtube.com/channel/UCQuHrr7-mBtutw9V94XGH-g'
+        Twitch:
+            icon: fab fa-twitch
+            url: 'https://www.twitch.tv/hangack'
+        Steam:
+            icon: fab fa-steam
+            url: 'https://steamcommunity.com/id/HanGack/'
+  - type: toc
+    position: left
+    index: false
+  - type: categories
+    position: left
+sidebar:
+  left:
+    sticky: true
+toc: true
 date: 2021-11-11 07:27:24
 ---
 
@@ -352,13 +377,13 @@ input_num()
 
 
 
-### 외부 링크
+## 외부 링크
  - [Data Transformation][Data Transformation]
 [Data Transformation]: https://www.kaggle.com/j2hoon85/for-newbie-let-s-do-data-transformation
  - [리스트에서 특정 문자열을 포함한 원소 뽑아내기][list 특정 문자열]
  [list 특정 문자열]: https://lapina.tistory.com/108
 
-### 기억이 안날 때는 응애..
+## 기억이 안날 때는 응애..
  - [python 함수](https://hangack.github.io/2021/11/02/Codding/Python/basic/python11-define/)
  - [python 입출력](https://hangack.github.io/2021/11/02/Codding/Python/basic/python12-%EC%9E%85%EC%B6%9C%EB%A0%A5/)
  - [python if문](https://hangack.github.io/2021/11/01/Codding/Python/basic/python7-%EC%A0%9C%EC%96%B4%EB%AC%B8/)

@@ -7,6 +7,31 @@ categories:
 tags:
   - 파이썬
   - 쥬피터
+widgets:
+  - type: profile
+    position: left
+    social_links:
+        Github:
+            icon: fab fa-github
+            url: 'https://github.com/hangack'
+        Youtube:
+            icon: fab fa-youtube
+            url: 'https://www.youtube.com/channel/UCQuHrr7-mBtutw9V94XGH-g'
+        Twitch:
+            icon: fab fa-twitch
+            url: 'https://www.twitch.tv/hangack'
+        Steam:
+            icon: fab fa-steam
+            url: 'https://steamcommunity.com/id/HanGack/'
+  - type: toc
+    position: left
+    index: false
+  - type: categories
+    position: left
+sidebar:
+  left:
+    sticky: true
+toc: true
 date: 2021-11-07 09:54:25
 ---
   

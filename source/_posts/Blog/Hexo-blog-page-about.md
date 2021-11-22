@@ -5,6 +5,31 @@ categories:
 tags: 
   - 블로그
   - hexo
+widgets:
+  - type: profile
+    position: left
+    social_links:
+        Github:
+            icon: fab fa-github
+            url: 'https://github.com/hangack'
+        Youtube:
+            icon: fab fa-youtube
+            url: 'https://www.youtube.com/channel/UCQuHrr7-mBtutw9V94XGH-g'
+        Twitch:
+            icon: fab fa-twitch
+            url: 'https://www.twitch.tv/hangack'
+        Steam:
+            icon: fab fa-steam
+            url: 'https://steamcommunity.com/id/HanGack/'
+  - type: toc
+    position: left
+    index: false
+  - type: categories
+    position: left
+sidebar:
+  left:
+    sticky: true
+toc: true
 date: 2021-11-17 10:01:26
 ---
 
@@ -36,5 +61,5 @@ $ hexo new page about
 index.md가 about에 대한 page로 포스트 작성하듯 원하는 내용을 작성하면된다.
 
 
-### 외부링크
+## 외부링크
  - [How to add route for Hexo?](https://stackoverflow.com/questions/29167023/how-to-add-route-for-hexo)

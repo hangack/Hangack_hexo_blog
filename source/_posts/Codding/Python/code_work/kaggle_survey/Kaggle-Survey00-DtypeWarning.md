@@ -8,6 +8,31 @@ categories:
 tags:
   - 파이썬
   - code
+widgets:
+  - type: profile
+    position: left
+    social_links:
+        Github:
+            icon: fab fa-github
+            url: 'https://github.com/hangack'
+        Youtube:
+            icon: fab fa-youtube
+            url: 'https://www.youtube.com/channel/UCQuHrr7-mBtutw9V94XGH-g'
+        Twitch:
+            icon: fab fa-twitch
+            url: 'https://www.twitch.tv/hangack'
+        Steam:
+            icon: fab fa-steam
+            url: 'https://steamcommunity.com/id/HanGack/'
+  - type: toc
+    position: left
+    index: false
+  - type: categories
+    position: left
+sidebar:
+  left:
+    sticky: true
+toc: true
 date: 2021-11-18 12:17:46
 ---
   
@@ -65,6 +90,6 @@ df = pd.read_csv("csv url", low_memory=False)
 df = pd.read_csv("csv url", dtype='unicode')
 ```
 
-### 외부링크
+## 외부링크
  - [warnings — 경고 제어](https://docs.python.org/ko/3/library/warnings.html)
  - [DataFrame의 칼럼](https://wikidocs.net/46751)

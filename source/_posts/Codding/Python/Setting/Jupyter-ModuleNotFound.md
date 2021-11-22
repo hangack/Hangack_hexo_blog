@@ -8,6 +8,31 @@ tags:
   - 파이썬
   - 쥬피터
   - 설정
+widgets:
+  - type: profile
+    position: left
+    social_links:
+        Github:
+            icon: fab fa-github
+            url: 'https://github.com/hangack'
+        Youtube:
+            icon: fab fa-youtube
+            url: 'https://www.youtube.com/channel/UCQuHrr7-mBtutw9V94XGH-g'
+        Twitch:
+            icon: fab fa-twitch
+            url: 'https://www.twitch.tv/hangack'
+        Steam:
+            icon: fab fa-steam
+            url: 'https://steamcommunity.com/id/HanGack/'
+  - type: toc
+    position: left
+    index: false
+  - type: categories
+    position: left
+sidebar:
+  left:
+    sticky: true
+toc: true
 date: 2021-11-09 15:04:15
 ---
   
@@ -48,5 +73,5 @@ Plotly 설치를 Anaconda prompt에서 진행한다.
 anaconda 로컬 소프트인 jupyter notebook에서 정상적으로 import되는 걸 확인할 수 있다.
 <img src="\images\2111\ModuleNotFound\PLOTLY 4.png">
 
-### 그렇다면 구글, 당신이 신이란거야?
+## 그렇다면 구글, 당신이 신이란거야?
  - [anaconda plotly](https://stackoverflow.com/questions/42521772/importerror-no-module-named-plotly-plotly-in-linuxmint17-3/48774224#48774224)

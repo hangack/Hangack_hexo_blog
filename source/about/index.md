@@ -1,6 +1,29 @@
 ---
 title: 유한각(hangack)
 date: 2021-11-14 22:37:45
+widgets:
+  - type: profile
+    position: left
+    social_links:
+        Github:
+            icon: fab fa-github
+            url: 'https://github.com/hangack'
+        Youtube:
+            icon: fab fa-youtube
+            url: 'https://www.youtube.com/channel/UCQuHrr7-mBtutw9V94XGH-g'
+        Twitch:
+            icon: fab fa-twitch
+            url: 'https://www.twitch.tv/hangack'
+        Steam:
+            icon: fab fa-steam
+            url: 'https://steamcommunity.com/id/HanGack/'
+  - type: toc
+    position: left
+    index: false
+sidebar:
+  left:
+    sticky: true
+toc: true
 ---
 
 인생업적: 군머제대 대졸
@@ -115,6 +138,7 @@ date: 2021-11-14 22:37:45
       - AKG Q701 (우측 유닛 사망)
       - ATH-M50x (분양)
       - Sennheiser MOMENTUM
+      - AKG K612 Pro (3일차 한줄평: 난 굉장히 별로)
     - 헤드셋
       - ATH-ADG1X (좌측 유닛 시한부)
     - 마이크
@@ -128,16 +152,21 @@ date: 2021-11-14 22:37:45
 ## 취미
  - 게임
 <center><img src="/images/about/steam.png" alt="을 가장한 수집"></center>
+ 좋아하는 게임 &#60;American McGee's Alice&#62;
+
 
  - 게임ost & Newage cd 수집
 <center><img src="/images/about/KakaoTalk_20210109_153448261.jpg"></center>
+ 
+ 
+ - 	&#60;Baccano!&#62; &#60;뤼팽 The 3rd&#62; 같은거 좋아함
 
    
 
-### 외부링크
+## 외부링크
  - [github](https://github.com/hangack)
  - [utube](https://www.youtube.com/channel/UCQuHrr7-mBtutw9V94XGH-g)
 
-### contect
+## contect
  - email
    - hangack7@gmail.com

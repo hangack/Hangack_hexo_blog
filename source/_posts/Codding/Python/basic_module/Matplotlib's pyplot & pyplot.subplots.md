@@ -1,12 +1,37 @@
 ---
 title: Matplotlib의 pyplot과 pyplot.subplots
-date: 2021-11-03 16:49:20
 categories:
   - 연습
   - 파이썬
   - 모듈
 tags:
   - 파이썬
+widgets:
+  - type: profile
+    position: left
+    social_links:
+        Github:
+            icon: fab fa-github
+            url: 'https://github.com/hangack'
+        Youtube:
+            icon: fab fa-youtube
+            url: 'https://www.youtube.com/channel/UCQuHrr7-mBtutw9V94XGH-g'
+        Twitch:
+            icon: fab fa-twitch
+            url: 'https://www.twitch.tv/hangack'
+        Steam:
+            icon: fab fa-steam
+            url: 'https://steamcommunity.com/id/HanGack/'
+  - type: toc
+    position: left
+    index: false
+  - type: categories
+    position: left
+sidebar:
+  left:
+    sticky: true
+toc: true
+date: 2021-11-03 16:49:20
 ---
 [Matplotlib](https://matplotlib.org/)는 [matlab 수치해석 프로그램](https://www.mathworks.com/products/matlab.html)을 python 기반 작업공간에서 다양한 작업을 하기 위해 개발된 외부 라이브러리다.
 이 라이브러리에서 그래프를 그리는 방식은 크게 2종류가 있는데, 간편하게 사용할 수 있는 pyplot가 첫번째다. 두번째 방식은 객체지향형 모듈에 좀 복잡한 객체 생성을 거쳐야하지만 다양한 설정 및 한 그래프 공간에 여러 축을 표현할 수 있는 pyplot.subplots가 있다.

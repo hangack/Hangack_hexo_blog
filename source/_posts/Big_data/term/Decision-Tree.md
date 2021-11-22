@@ -5,6 +5,31 @@ categories:
   - 용어
 tags:
   - 빅데이터
+widgets:
+  - type: profile
+    position: left
+    social_links:
+        Github:
+            icon: fab fa-github
+            url: 'https://github.com/hangack'
+        Youtube:
+            icon: fab fa-youtube
+            url: 'https://www.youtube.com/channel/UCQuHrr7-mBtutw9V94XGH-g'
+        Twitch:
+            icon: fab fa-twitch
+            url: 'https://www.twitch.tv/hangack'
+        Steam:
+            icon: fab fa-steam
+            url: 'https://steamcommunity.com/id/HanGack/'
+  - type: toc
+    position: left
+    index: false
+  - type: categories
+    position: left
+sidebar:
+  left:
+    sticky: true
+toc: true
 date: 2021-11-04 14:58:39
 ---
 
@@ -36,7 +61,7 @@ date: 2021-11-04 14:58:39
 객체의 종류가 적다면 큰 문제는 없겠지만, 차량 객체 각각에 대한 데이터를 가지고 있고 법률적인 포멧이 있다면 수 많은 차량에 대한 포멧을 컴퓨터 작업을 통해 간단히 나눌 수 있을 것이다.
 
 
-### 추가정보
+## 추가정보
 - [Matlab utube](https://youtu.be/IFGP0mqdL5w)
 - [Minsuk Heo 허민석 utube](https://youtu.be/n0p0120Gxqk)
   - [엔트로피](https://youtu.be/UPKugq0fK04)

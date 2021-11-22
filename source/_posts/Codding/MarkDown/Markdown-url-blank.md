@@ -5,6 +5,31 @@ categories:
   - 마크다운
 tags:
   - 마크다운
+widgets:
+  - type: profile
+    position: left
+    social_links:
+        Github:
+            icon: fab fa-github
+            url: 'https://github.com/hangack'
+        Youtube:
+            icon: fab fa-youtube
+            url: 'https://www.youtube.com/channel/UCQuHrr7-mBtutw9V94XGH-g'
+        Twitch:
+            icon: fab fa-twitch
+            url: 'https://www.twitch.tv/hangack'
+        Steam:
+            icon: fab fa-steam
+            url: 'https://steamcommunity.com/id/HanGack/'
+  - type: toc
+    position: left
+    index: false
+  - type: categories
+    position: left
+sidebar:
+  left:
+    sticky: true
+toc: true
 date: 2021-11-16 10:27:25
 ---
   
@@ -30,12 +55,12 @@ image url에 공백이 들어간 것.
 
 <center><img src="\images\2111\md url blank\ipy.png" alt="jupyter"></center>
 
-여전히 이따구다.
+여전히 발생하는 문제다.
 
 
-html처럼 `&nbsp;`를 공백 대신 넣어보기도 하고 cmd 마냥 `""`로 묶는 등 별별 야랄을 다 했지만 markdown 어법으로는 해결하지 못했다.
+html처럼 `&nbsp;`를 공백 대신 넣어보기도 하고 cmd 마냥 `""`로 묶는 등 코랄을 했지만 markdown 어법으로는 해결하지 못했다.
 
-그러던 중 markdown 사용 초기에 html 어법도 지원하던걸 기억하고 html img 태그로 해결했다.
+markdown이 html 어법도 지원하는걸 기억하고 html img 태그로 해결했다.
 
 <img src="\images\2111\md url blank\interstellar poster.png" alt="찾을 것">
 

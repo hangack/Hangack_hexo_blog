@@ -7,6 +7,31 @@ tags:
   - 블로그
   - 설정
   - hexo
+widgets:
+  - type: profile
+    position: left
+    social_links:
+        Github:
+            icon: fab fa-github
+            url: 'https://github.com/hangack'
+        Youtube:
+            icon: fab fa-youtube
+            url: 'https://www.youtube.com/channel/UCQuHrr7-mBtutw9V94XGH-g'
+        Twitch:
+            icon: fab fa-twitch
+            url: 'https://www.twitch.tv/hangack'
+        Steam:
+            icon: fab fa-steam
+            url: 'https://steamcommunity.com/id/HanGack/'
+  - type: toc
+    position: left
+    index: false
+  - type: categories
+    position: left
+sidebar:
+  left:
+    sticky: true
+toc: true
 date: 2021-11-13 15:14:52
 ---
 
@@ -66,10 +91,10 @@ $ npm install hexo-renderer-mathjax --save
 
 markdown 문법을 사용할 예정이라 문법 추가 설정은 하지 않는다.
 
-### 예제
+## 예제
 [오...](https://hangack.github.io/2021/11/15/Codding/MarkDown/markdown-%EC%88%98%EC%8B%9D-%EB%84%A3%EA%B8%B0/)
 
-### 외부링크
+## 외부링크
 
  - [hexo-math](https://github.com/hexojs/hexo-math)
  - [Hexo 블로그-mathjax](https://hyeshinoh.github.io/2018/10/24/hexo_mathjax_00/)

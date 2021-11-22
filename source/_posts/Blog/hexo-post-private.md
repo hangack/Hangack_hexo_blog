@@ -5,12 +5,37 @@ categories:
 tags: 
   - 블로그
   - hexo
+widgets:
+  - type: profile
+    position: left
+    social_links:
+        Github:
+            icon: fab fa-github
+            url: 'https://github.com/hangack'
+        Youtube:
+            icon: fab fa-youtube
+            url: 'https://www.youtube.com/channel/UCQuHrr7-mBtutw9V94XGH-g'
+        Twitch:
+            icon: fab fa-twitch
+            url: 'https://www.twitch.tv/hangack'
+        Steam:
+            icon: fab fa-steam
+            url: 'https://steamcommunity.com/id/HanGack/'
+  - type: toc
+    position: left
+    index: false
+  - type: categories
+    position: left
+sidebar:
+  left:
+    sticky: true
+toc: true
 date: 2021-11-16 02:37:18
 ---
 
-## dash( _ ) 사용하기
+## UnderBar( _ ) 사용하기
 
-dash( `_` )를 title 앞에 붙여주면 hexo에서 private post로 인식하고 배포하지 않는다.
+UnderBar( `_` )를 title 앞에 붙여주면 hexo에서 private post로 인식하고 배포하지 않는다.
 ![MAE-MSE-RMSE.md: 비공개](/images/2111/private_post/dash.png)
 
 
@@ -22,12 +47,12 @@ dash( `_` )를 title 앞에 붙여주면 hexo에서 private post로 인식하고
 $ hexo new [layout] <title>
 ```
 
-`draft` layout으로 new post를 생성하면 `_drafts` 폴더에 post가 생성되는데, post title 앞에 dash가 없더라도 private post로 인식된다.
+`draft` layout으로 new post를 생성하면 `_drafts` 폴더에 post가 생성되는데, post title 앞에 UnderBar가 없더라도 private post로 인식된다.
 layout을 `draft`로 지정하면 `_drafts` 폴더 하위에 new post가 생성된다.
 ```shell
 $ hexo new draft <title>
 ```
 
 
-### 외부링크
+## 외부링크
  - [Hexo 명령어](https://hexo.io/ko/docs/commands.html) 

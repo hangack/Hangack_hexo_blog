@@ -7,6 +7,31 @@ tags:
   - 블로그
   - 설정
   - hexo
+widgets:
+  - type: profile
+    position: left
+    social_links:
+        Github:
+            icon: fab fa-github
+            url: 'https://github.com/hangack'
+        Youtube:
+            icon: fab fa-youtube
+            url: 'https://www.youtube.com/channel/UCQuHrr7-mBtutw9V94XGH-g'
+        Twitch:
+            icon: fab fa-twitch
+            url: 'https://www.twitch.tv/hangack'
+        Steam:
+            icon: fab fa-steam
+            url: 'https://steamcommunity.com/id/HanGack/'
+  - type: toc
+    position: left
+    index: false
+  - type: categories
+    position: left
+sidebar:
+  left:
+    sticky: true
+toc: true
 date: 2021-11-01 12:24:46
 ---
 ## Hexo 설치
@@ -88,5 +113,5 @@ $ hexo deploy
 사이트 주소는 위 #URL에서 입력한 [**https://유저아이디.github.io**]와 동일하다.
 
 
-### 외부링크
+## 외부링크
  - [hexo docs(sub kor)](https://hexo.io/ko/docs/index.html)
