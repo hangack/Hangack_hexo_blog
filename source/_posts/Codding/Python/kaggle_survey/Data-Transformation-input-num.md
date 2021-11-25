@@ -3,8 +3,7 @@ title: 문자열을 인식해서 특정 값을 뽑아내고 특정 경우에 추
 categories:
   - 연습
   - 파이썬
-  - 코딩
-  - 2021 Kaggle_Survey
+  - Kaggle_Survey 2021
 tags:
   - 파이썬
   - code

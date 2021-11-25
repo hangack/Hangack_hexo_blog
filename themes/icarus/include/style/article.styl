@@ -1,7 +1,7 @@
 /* ---------------------------------
  *    Article Summary and Content
  * --------------------------------- */
-$article-font-size ?= 1.1rem
+$article-font-size ?= 1.2rem
 
 article
     &.media
@@ -11,7 +11,7 @@ article
             color: inherit
 
             &:hover
-                color: $primary
+                color: $primary2
 
         .image
             width: 64px
@@ -40,6 +40,7 @@ article
                 line-height: inherit
 
     &.article
+
         .article-meta, .article-tags
             color: $text-light
 
@@ -53,6 +54,7 @@ article
         .content
             word-wrap: break-word
             font-size: $article-font-size
+
 
             h1
                 font-size: 1.75em
@@ -87,6 +89,13 @@ article
                 footer
                     strong + cite
                         margin-left: .5em
+
+
+            a
+                word-wrap: break-word
+
+            img
+                border: solid 1px $primary
 
             .message.message-immersive
                 border-radius: 0

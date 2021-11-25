@@ -131,12 +131,3 @@ Wa!
 
 ## 외부링크
  - [Hexo Front-matter](https://hexo.io/ko/docs/front-matter.html)
- 
-
-<script src="https://utteranc.es/client.js"
-        repo="hangack/Hangack_blog_comment"
-        issue-term="pathname"
-        theme="github-light"
-        crossorigin="anonymous"
-        async>
-</script>

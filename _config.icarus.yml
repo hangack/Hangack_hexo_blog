@@ -3,13 +3,11 @@ version: 4.0.0
 # Icarus theme variant, can be "default" or "cyberpunk"
 variant: default
 # Path or URL to the website's logo
-##logo: /img/logo.svg #:default
 logo: /img/logo.png
 # Page metadata configurations
 head:
     # URL or path to the website's icon
-##    favicon: /img/favicon.svg #:default
-    favicon: /img/favicon.png
+    favicon: /img/favicon.png?
     # Web application manifests configuration
     # https://developer.mozilla.org/en-US/docs/Web/Manifest
     manifest:
@@ -112,7 +110,7 @@ navbar:
         Categories: /categories
         Tags: /tags
         About: /about
-    # Links to be shown on the right of the navigation bar
+#    # Links to be shown on the right of the navigation bar
 #    links:
 #        Download on GitHub:
 #            icon: fab fa-github
@@ -121,12 +119,6 @@ navbar:
 footer:
     # Links to be shown on the right of the footer section
     links:
-#        Creative Commons:
-#            icon: fab fa-creative-commons
-#            url: 'https://creativecommons.org/'
-#        Attribution 4.0 International:
-#            icon: fab fa-creative-commons-by
-#            url: 'https://creativecommons.org/licenses/by/4.0/'
         Download on GitHub:
             icon: fab fa-github
             url: 'https://github.com/hangack'
@@ -162,35 +154,12 @@ search:
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Comment/
 comment:
     type: utterances
-    repo: hangack/comment
+    repo: hangack/hangack_blog_comment
     issue_term: pathname
     theme: github-light
-#    type: disqus
-#    # Disqus shortname
-#    shortname: ''
 # Donate plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Donation/
 #donates:
-#    # "Afdian.net" donate button configurations
-#    -
-#        type: afdian
-#        # URL to the "Afdian.net" personal page
-#        url: ''
-#    # Alipay donate button configurations
-#    -
-#        type: alipay
-#        # Alipay qrcode image URL
-#        qrcode: ''
-#    # "Buy me a coffee" donate button configurations
-#    -
-#        type: buymeacoffee
-#        # URL to the "Buy me a coffee" page
-#        url: ''
-#    # Patreon donate button configurations
-#    -
-#        type: patreon
-#        # URL to the Patreon page
-#        url: ''
 #    # Paypal donate button configurations
 #    -
 #        type: paypal
@@ -198,18 +167,12 @@ comment:
 #        business: ''
 #        # Currency code
 #        currency_code: USD
-#    # Wechat donate button configurations
-#    -
-#        type: wechat
-#        # Wechat qrcode image URL
-#        qrcode: ''
-
 # Share plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Share/
-share:
-    type: sharethis
-    # URL to the ShareThis share plugin script
-    install_url: ''
+#share:
+#    type: sharethis
+#    # URL to the ShareThis share plugin script
+#    install_url: ''
 # Sidebar configurations.
 # Please be noted that a sidebar is only visible when it has at least one widget
 sidebar:
@@ -248,15 +211,6 @@ widgets:
             Github:
                 icon: fab fa-github
                 url: 'https://github.com/hangack'
-#            Facebook:
-#                icon: fab fa-facebook
-#                url: 'https://facebook.com'
-#            Twitter:
-#                icon: fab fa-twitter
-#                url: 'https://twitter.com'
-#            Dribbble:
-#                icon: fab fa-dribbble
-#                url: 'https://dribbble.com'
             Youtube:
                 icon: fab fa-youtube
                 url: 'https://www.youtube.com/channel/UCQuHrr7-mBtutw9V94XGH-g'
@@ -309,16 +263,6 @@ widgets:
         # Where should the widget be placed, left sidebar or right sidebar
         position: left
         type: tags
-#    # Google FeedBurner email subscription widget configurations
-#    -
-#        # Where should the widget be placed, left sidebar or right sidebar
-#        position: left
-#        type: subscribe_email
-#        # Hint text under the email input
-#        description:
-#        # Feedburner ID
-#        feedburner_id: ''
-#    # Google AdSense unit configurations
 #    -
 #        # Where should the widget be placed, left sidebar or right sidebar
 #        position: left
@@ -327,51 +271,40 @@ widgets:
 #        client_id: ''
 #        # AdSense AD unit ID
 #        slot_id: ''
-#    # Follow.it email subscription widget configurations
-#    -
-#        # Where should the widget be placed, left sidebar or right sidebar
-#        position: left
-#        type: followit
-#        # Hint text under the email input
-#        description:
-#        # Subscription form action URL
-#        action_url: ''
-#        # Feed claiming verification code
-#        verification_code: ''
 # Plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/
 plugins:
     # Enable page startup animations
-    animejs: true
+    animejs: false
     # Show the "back to top" button
     back_to_top: true
-    # Baidu Analytics plugin settings
-    # https://tongji.baidu.com
-    baidu_analytics:
-        # Baidu Analytics tracking ID
-        tracking_id: 
-    # Bing Webmaster Tools plugin settings
-    # https://www.bing.com/toolbox/webmaster/
-    bing_webmaster:
-        # Bing Webmaster Tools tracking ID in the <meta> tag
-        tracking_id: 
-    # BuSuanZi site/page view counter
-    # https://busuanzi.ibruce.info
-    busuanzi: false
-    # CNZZ statistics
-    # https://www.umeng.com/web
-    cnzz:
-        # CNZZ tracker id
-        id: 
-        # CNZZ website id
-        web_id: 
+#    # Baidu Analytics plugin settings
+#    # https://tongji.baidu.com
+#    baidu_analytics:
+#        # Baidu Analytics tracking ID
+#        tracking_id:
+#    # Bing Webmaster Tools plugin settings
+#    # https://www.bing.com/toolbox/webmaster/
+#    bing_webmaster:
+#        # Bing Webmaster Tools tracking ID in the <meta> tag
+#        tracking_id:
+#    # BuSuanZi site/page view counter
+#    # https://busuanzi.ibruce.info
+#    busuanzi: false
+#    # CNZZ statistics
+#    # https://www.umeng.com/web
+#    cnzz:
+#        # CNZZ tracker id
+#        id:
+#        # CNZZ website id
+#        web_id:
     # Alerting users about the use of cookies
     # https://www.osano.com/cookieconsent/
     cookie_consent:
         # The compliance type. Can be "info", "opt-in", or "opt-out"
         type: info
         # Theme of the popup. Can be "block", "edgeless", or "classic"
-        theme: edgeless
+        theme: classic
         # Whether the popup should stay static regardless of the page scrolls
         static: false
         # Where on the screen the consent popup should display
@@ -395,11 +328,7 @@ plugins:
     katex: false
     # Enable the MathJax math typesetting support
     # https://www.mathjax.org/
-
-    mathjax:
-        enable: true
-    # mathjax: false    # : default
-
+    mathjax: true
     # Enable the Outdated Browser plugin
     # http://outdatedbrowser.com/
     outdated_browser: false

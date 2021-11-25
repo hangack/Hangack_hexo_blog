@@ -4,7 +4,7 @@ bulma-stylus-root = '../../../../node_modules/bulma-stylus/stylus'
  *   Override Bulma CSS Framework
  * --------------------------------- */
 $body-size ?= 14px
-$body-background-color ?= #f7f7f7
+$body-background-color ?= #ffffff
 
 $family-sans-serif ?= Ubuntu, Roboto, 'Open Sans', 'Microsoft YaHei', sans-serif
 $family-code ?= 'Source Code Pro', monospace, 'Microsoft YaHei'
@@ -12,7 +12,8 @@ $family-code ?= 'Source Code Pro', monospace, 'Microsoft YaHei'
 $size-7 ?= .85rem
 $size-small ?= .75rem
 
-$primary ?= $blue
+$primary ?= #FFEFD5
+$primary2 ?= rgb(210,198,175)
 $custom-colors ?= {
     grey-lightest: {
         '1': $grey-lightest
@@ -20,16 +21,16 @@ $custom-colors ?= {
     }
 }
 
-$navbar-item-active-color ?= $primary
+$navbar-item-active-color ?= $primary2
 $footer-background-color ?= $scheme-main
 
 $gap ?= 64px
-$tablet ?= 769px
-$desktop ?= 1088px
+$tablet ?= 1080px
+$desktop ?= 1280px
 $widescreen ?= 1280px
-$fullhd ?= 1472px
+$fullhd ?= 1600px
 
-$shadow ?= 0 4px 10px rgba(0, 0, 0, 0.05)
+$shadow ?= none
 
 $title-weight ?= $weight-normal
 
@@ -46,7 +47,7 @@ $menu-item-active-background-color ?= hsl(219, 70%, 96%)
 $content-heading-weight ?= $weight-normal
 
 
-$logo-height ?= 1.75rem
+$logo-height ?= 3.0rem
 
 // FIXME: https://github.com/groenroos/bulma-stylus/issues/11
 @import bulma-stylus-root + '/utilities/initial-variables'
@@ -80,20 +81,22 @@ body
 body > .section
     flex-grow: 1
 
-+desktop()
-    ::-webkit-scrollbar
-        width: 8px
-        height: 8px
-
-    ::-webkit-scrollbar-track
-        border-radius: 3px
-        background: rgba(0,0,0,0.06)
-        box-shadow: inset 0 0 5px rgba(0,0,0,0.1)
-
-    ::-webkit-scrollbar-thumb
-        border-radius: 3px
-        background: rgba(0,0,0,0.12)
-        box-shadow: inset 0 0 10px rgba(0,0,0,0.2)
-
-    ::-webkit-scrollbar-thumb:hover
-        background: rgba(0,0,0,0.24)
+/* ---------------------------------
+ *+desktop()
+ *    ::-webkit-scrollbar
+ *        width: 8px
+ *        height: 8px
+ *
+ *    ::-webkit-scrollbar-track
+ *        border-radius: 3px
+ *        background: rgba(0,0,0,0.06)
+ *        box-shadow: inset 0 0 5px rgba(0,0,0,0.1)
+ *
+ *    ::-webkit-scrollbar-thumb
+ *        border-radius: 3px
+ *        background: rgba(0,0,0,0.12)
+ *        box-shadow: inset 0 0 10px rgba(0,0,0,0.2)
+ *
+ *    ::-webkit-scrollbar-thumb:hover
+ *        background: rgba(0,0,0,0.24)
+ * --------------------------------- */

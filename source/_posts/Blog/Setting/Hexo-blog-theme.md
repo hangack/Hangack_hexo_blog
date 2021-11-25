@@ -67,3 +67,7 @@ theme: icarus
 ```
 
 `hexo s`로 local에서 적용을 확인하고 `hexo g -d`로 적용, 배포를 진행하면된다.
+
+
+## 추가링크
+- [Git clone으로 theme 받기](https://hangack.github.io/2021/11/02/Blog/Setting/Hexo-blog-theme/)

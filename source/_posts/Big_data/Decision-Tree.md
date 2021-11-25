@@ -2,9 +2,9 @@
 title: 의사결정트리(Decision Tree)에 대한 간단 설명
 categories:
   - 빅데이터
-  - 용어
 tags:
   - 빅데이터
+  - 정의
 widgets:
   - type: profile
     position: left

@@ -3,8 +3,7 @@ title: 'Kaggle_Survey00 - dtype Warning 해결하기 [pandas]'
 categories:
   - 연습
   - 파이썬
-  - 코딩
-  - 2021 Kaggle_Survey
+  - Kaggle_Survey 2021
 tags:
   - 파이썬
   - code

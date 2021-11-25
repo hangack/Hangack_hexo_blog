@@ -26,10 +26,8 @@ sidebar:
 toc: true
 ---
 
-인생업적: 군머제대 대졸
 
-
- - 대학에서 배운거?
+ - 대학?
    - 기초통계부터 선형대수에 푸리에 급수,
    - 기초물리부터 공기 역학,
    - 화학은..분명 했지만,
@@ -84,6 +82,7 @@ toc: true
    - JDBC: Oracle - Java Database Connectivity
  - PyCharm
  - git
+ - VS Code
 
 #### 온라인
  - Google Colab
@@ -150,18 +149,32 @@ toc: true
 
 
 ## 취미
- - 게임
+### 게임
+
 <center><img src="/images/about/steam.png" alt="을 가장한 수집"></center>
- 좋아하는 게임 &#60;American McGee's Alice&#62;
+
+좋아하는 게임 &#60;American McGee's Alice&#62;.
 
 
- - 게임ost & Newage cd 수집
+### 게임ost & Newage cd 수집
+
 <center><img src="/images/about/KakaoTalk_20210109_153448261.jpg"></center>
  
  
- - 	&#60;Baccano!&#62; &#60;뤼팽 The 3rd&#62; 같은거 좋아함
+### 서브컬처
+&#60;Baccano!&#62; &#60;뤼팽 The 3rd&#62; 같은거 좋아함
 
    
+
+## 해외여행
+
+### 자유여행
+ - 미국 1개월
+ - 일본 3박4일
+
+### 패키지
+ - 캄보디아 6박7일
+
 
 ## 외부링크
  - [github](https://github.com/hangack)

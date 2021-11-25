@@ -2,7 +2,6 @@
 title: 평가지표 RMSE와 MAE, MSE
 categories:
   - 빅데이터
-  - 통계
 tags:
   - 빅데이터
   - 수식

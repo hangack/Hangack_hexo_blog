@@ -8,6 +8,7 @@ $navbar-item-margin-h ?= 0
 
 .navbar-main
     box-shadow: $shadow
+    border-bottom: solid 1px $primary2
 
     .navbar-menu, .navbar-start, .navbar-end
         align-items: stretch
@@ -35,6 +36,7 @@ $navbar-item-margin-h ?= 0
         margin: $navbar-item-margin-v $navbar-item-margin-h
 
         &.is-active
+            color: $primary2
             background-color: transparent
 
     +until($navbar-breakpoint)
