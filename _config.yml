@@ -105,3 +105,18 @@ deploy:
   type: git
   repo: https://github.com/hangack/hangack.github.io.git
   branch: main
+
+# SEO
+sitemap:
+  path: sitemap.xml
+  tag: false
+  category: false
+feed:
+  type: rss2
+  path: rss2.xml
+  limit: 20
+robotstxt:
+  useragent: '*'
+  allow:
+    - /
+  sitemap: https://hangack.github.io/sitemap.xml

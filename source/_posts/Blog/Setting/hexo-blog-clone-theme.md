@@ -32,6 +32,7 @@ widgets:
   - type: categories
     position: left
 toc: true
+thumbnail: /thumbnails/CS/hexo.svg
 date: 2021-11-25 05:35:36
 ---
 
@@ -56,7 +57,7 @@ $ git clone --depth 1 https://github.com/ppoffice/hexo-theme-icarus.git
 
 마지막으로 테마명을 일치시키기 위해 불러온 hexo-theme-icarus 디렉토리를 icarus로 변경해줬다.
 
-가장 답답했던 페이지 가로축 범위 조정도 [hexo icarus 테마에 커스텀 레이아웃, 스타일(css) 적용하기](https://chinsun9.github.io/2020/11/12/%EC%BB%A4%EC%8A%A4%ED%85%80-%EB%A0%88%EC%9D%B4%EC%95%84%EC%9B%83/)에서 적용법을 확인할 수 있다.
+가장 답답했던 페이지 가로축 범위 조정도 [hexo icarus 테마에 커스텀 레이아웃, 스타일(css) 적용하기](https://chinsun9.github.io/2020/11/12/%EC%BB%A4%EC%8A%A4%ED%85%80-%EB%A0%88%EC%9D%B4%EC%95%84%EC%9B%83/)에서 적용법을 확인할 수 있었다.
 
 
 

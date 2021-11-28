@@ -33,6 +33,7 @@ sidebar:
   left:
     sticky: true
 toc: true
+thumbnail: /thumbnails/CS/jupyter.svg
 date: 2021-11-09 15:04:15
 ---
   

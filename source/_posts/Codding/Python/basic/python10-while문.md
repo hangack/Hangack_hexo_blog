@@ -6,6 +6,7 @@ categories:
   - 기초
 tags:
   - 파이썬
+thumbnail: /thumbnails/CS/python.svg
 date: 2021-11-01 16:29:16
 ---
 ## While 문 (조건과 반복의 콤비네이션)

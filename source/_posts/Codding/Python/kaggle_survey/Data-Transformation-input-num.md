@@ -32,6 +32,7 @@ sidebar:
   left:
     sticky: true
 toc: true
+thumbnail: /thumbnails/CS/python.svg
 date: 2021-11-11 07:27:24
 ---
 

@@ -6,6 +6,7 @@ categories:
 tags:
   - 마크다운
   - 수식
+  - mathjax
 widgets:
   - type: profile
     position: left
@@ -31,6 +32,7 @@ sidebar:
   left:
     sticky: true
 toc: true
+thumbnail: /thumbnails/CS/mathjax.png
 date: 2021-11-15 06:23:55
 ---
 

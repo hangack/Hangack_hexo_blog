@@ -32,6 +32,7 @@ sidebar:
   left:
     sticky: true
 toc: true
+thumbnail: /thumbnails/CS/mathjax.png
 date: 2021-11-13 15:14:52
 ---
 

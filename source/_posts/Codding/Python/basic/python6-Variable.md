@@ -6,6 +6,7 @@ categories:
   - 기초
 tags:
   - 파이썬
+thumbnail: /thumbnails/CS/python.svg
 date: 2021-11-01 16:22:01
 ---
 ## 변수(Variable), 객체(Object), 자료(Data), 자료형(Data type)

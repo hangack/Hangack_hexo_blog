@@ -33,6 +33,7 @@ sidebar:
   left:
     sticky: true
 toc: true
+thumbnail: /thumbnails/CS/git.svg
 date: 2021-10-31 12:01:42
 ---
 

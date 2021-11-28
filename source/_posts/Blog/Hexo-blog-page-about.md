@@ -30,6 +30,7 @@ sidebar:
   left:
     sticky: true
 toc: true
+thumbnail: /thumbnails/CS/hexo.svg
 date: 2021-11-17 10:01:26
 ---
 

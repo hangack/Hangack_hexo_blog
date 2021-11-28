@@ -12,8 +12,10 @@ $family-code ?= 'Source Code Pro', monospace, 'Microsoft YaHei'
 $size-7 ?= .85rem
 $size-small ?= .75rem
 
+
 $primary ?= #FFEFD5
-$primary2 ?= rgb(210,198,175)
+$primary2 ?= #D2C6AF
+$primary3 ?= #FCF3E3
 $custom-colors ?= {
     grey-lightest: {
         '1': $grey-lightest
@@ -80,6 +82,9 @@ body
 
 body > .section
     flex-grow: 1
+
+
+::selection { color: #ffffff; background:$primary2 }
 
 /* ---------------------------------
  *+desktop()

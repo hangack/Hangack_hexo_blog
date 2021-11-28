@@ -31,6 +31,7 @@ sidebar:
   left:
     sticky: true
 toc: true
+thumbnail: /thumbnails/CS/numpy.svg
 date: 2021-11-02 15:55:07
 ---
   

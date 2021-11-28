@@ -30,6 +30,7 @@ sidebar:
   left:
     sticky: true
 toc: true
+thumbnail: /thumbnails/CS/markdown.png
 date: 2021-11-09 16:27:25
 ---
 

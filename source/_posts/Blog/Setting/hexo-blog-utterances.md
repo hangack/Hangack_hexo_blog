@@ -32,6 +32,7 @@ widgets:
   - type: categories
     position: left
 toc: true
+thumbnail: https://avatars3.githubusercontent.com/u/27908738?v=3&s=88
 date: 2021-11-24 06:17:54
 ---
 

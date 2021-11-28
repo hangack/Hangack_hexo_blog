@@ -6,6 +6,7 @@ categories:
   - 기초
 tags:
   - 파이썬
+thumbnail: /thumbnails/CS/python.svg
 date: 2021-11-02 15:48:13
 ---
 ## 입력

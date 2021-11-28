@@ -32,6 +32,7 @@ sidebar:
   left:
     sticky: true
 toc: true
+thumbnail: /thumbnails/CS/python.svg
 date: 2021-11-01 08:53:29
 ---
 ## 아나콘다 설치

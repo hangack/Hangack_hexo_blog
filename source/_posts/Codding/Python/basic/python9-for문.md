@@ -6,6 +6,7 @@ categories:
   - 기초
 tags:
   - 파이썬
+thumbnail: /thumbnails/CS/python.svg
 date: 2021-11-01 16:28:31
 ---
 ## FOR 문 (반복문)

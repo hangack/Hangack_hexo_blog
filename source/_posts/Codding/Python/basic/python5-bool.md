@@ -6,6 +6,7 @@ categories:
   - 기초
 tags:
   - 파이썬
+thumbnail: /thumbnails/CS/python.svg
 date: 2021-11-01 16:21:23
 ---
 ## 불 자료형 (bool)

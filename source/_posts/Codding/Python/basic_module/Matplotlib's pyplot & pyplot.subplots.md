@@ -31,6 +31,7 @@ sidebar:
   left:
     sticky: true
 toc: true
+thumbnail: /thumbnails/CS/matplotlib.svg
 date: 2021-11-03 16:49:20
 ---
 [Matplotlib](https://matplotlib.org/)는 [matlab 수치해석 프로그램](https://www.mathworks.com/products/matlab.html)을 python 기반 작업공간에서 다양한 작업을 하기 위해 개발된 외부 라이브러리다.
