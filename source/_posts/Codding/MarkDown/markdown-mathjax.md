@@ -85,7 +85,7 @@ $x_5 = [[\{(x_1)+x_2\}+x_3]+x_4]$
 ```
 
 ※ `Hexo`: 중괄호를 표현하기 위해선 `\`를 중첩 사용한다.
-[hexo 수식 사용하기](https://hangack.github.io/2021/11/12/Blog/Setting/Hexo-blog-mathjax/)
+[hexo 수식 사용하기](https://hangack.github.io/2021/11/13/Blog/Setting/Hexo-blog-mathjax/)
 ```markdown
 $x_5 = [[\\{(x_1)+x_2\\}+x_3]+x_4]$
 ```

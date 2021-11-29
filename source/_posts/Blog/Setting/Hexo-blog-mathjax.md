@@ -7,6 +7,7 @@ tags:
   - 블로그
   - 설정
   - hexo
+  - 수식
 widgets:
   - type: profile
     position: left
