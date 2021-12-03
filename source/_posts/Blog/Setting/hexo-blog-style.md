@@ -50,7 +50,7 @@ HTML? 몰?루 하던 시절엔 왜째서 기본 탑재된지 이해가 안가던
 
 오늘 만큼은 이놈을 유용하게 사용할 수 있겠다.
 
-![문제의 '그' BOX](images\2111\hexo_blog_themeCSS\chrome DevTools.png)
+![문제의 그 BOX](\images\2111\hexo_blog_CSS\devtools.png)
 
 DevTools 위에 나오는 코드 뭉탱이(`Elements`)가 해당 페이지의 구성 요소들의 배치 형식, 아래 나오는 `Styles` 박스가 `Elements`에서 클릭한 요소의 CSS stlye로 보면된다.
 
@@ -61,11 +61,11 @@ DevTools 위에 나오는 코드 뭉탱이(`Elements`)가 해당 페이지의 �
 
 DevTools에서는 친절하게도 임의 요소에 마우스를 올려두기만 해도 어느 영역에 대한 `Class`인지 화면에 표시해준다.
 
-![요소 식별](images\2111\hexo_blog_themeCSS\find class.png)
+![요소 식별](\images\2111\hexo_blog_CSS\find class.png)
 
 팁이 있다면 DevTools 좌측 상단의 "Select an element in the page to inspect it - Ctrl+Shift+C" 버튼을 눌러보자
 
-<center><img src="images\2111\hexo_blog_themeCSS\mouse.png"></center>
+<center><img src="\images\2111\hexo_blog_CSS\mouse.png"></center>
 
 
 식별된 요소가 포함된 class들을 기억하자.
@@ -75,7 +75,7 @@ DevTools에서는 친절하게도 임의 요소에 마우스를 올려두기만 
 `pagination.stly` 파일 안에서 `pagination` 요소와 `pagination-link.is-current` 하위 요소를 찾을 수 있었다.
 중간의 ul은 moblie 모드에서는 숨기는 옵션? js로 설정하는 예외인거같다.
 
-![theme/include/style/](images\2111\hexo_blog_themeCSS\change option.png)
+![style](\images\2111\hexo_blog_CSS\change option.png)
 
 article의 img 요소처럼 style 커스텀 값이 없다면 부모 객체 아래에 직접 넣어주면 된다.
 

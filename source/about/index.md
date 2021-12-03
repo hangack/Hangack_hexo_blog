@@ -63,6 +63,7 @@ toc: true
    - CSS: Cascading Style Sheets
  - md: Markdown
    - mathjax
+ - R
 
 ### 사용한 개발환경
 #### Local
@@ -83,6 +84,8 @@ toc: true
  - PyCharm
  - git
  - VS Code
+ - Rstudio
+   - Rtools
 
 #### 온라인
  - Google Colab
@@ -153,16 +156,21 @@ toc: true
 
 <center><img src="/images/about/steam.png" alt="을 가장한 수집"></center>
 
-좋아하는 게임 &#60;American McGee's Alice&#62;.
+
+좋아하는 게임 &#60;**American McGee's Alice**&#62;.
 
 
 ### 게임ost & Newage cd 수집
 
-<center><img src="/images/about/KakaoTalk_20210109_153448261.jpg"></center>
+<center><img src="/images/about/KakaoTalk_20210109_153448261.jpg" height="40%" width="60%"></center>
+
+
+제일 아끼는 컬렉션 &#60;**TALES WEAVER ORIGINAL SOUNDTRACK +PLUS(4CD)**&#62;
  
  
 ### 서브컬처
-&#60;Baccano!&#62; &#60;뤼팽 The 3rd&#62; 같은거 좋아함
+
+&#60;**Baccano!**&#62; &#60;**루팡 The 3rd**&#62; 같은거 좋아함
 
    
 
@@ -170,7 +178,9 @@ toc: true
 
 ### 자유여행
  - 미국 1개월
+   - 아시아권 유저들과 게임 브리핑 가능한 간단 영어 회화
  - 일본 3박4일
+   - 여고생짱 말투의 간단 일본 회화
 
 ### 패키지
  - 캄보디아 6박7일

@@ -39,7 +39,7 @@ date: 2021-11-30 06:20:51
 
 ## plotly에 그래프 업로드
 
-[Kaggle_Survey01: Pie [Plotly]](https://github.com/hangack/project-green/blob/main/Kaggle_Survey-2021/notebook/my_work/Kaggle_Survey01%20Pie%20%5BPlotly%5D.ipynb)에서 작성한 plotly chart는 동적 그래프라 이미지로 사용하긴 아쉽고 github page의 ipynb에서도 동작하지 않는다.
+[Kaggle_Survey01: Pie [Plotly]](https://hangack.github.io/2021/12/02/Codding/Python/kaggle_survey/kaggle-survey01/)에서 작성한 plotly chart는 동적 그래프라 이미지로 사용하긴 아쉽고 github page의 ipynb에서도 동작하지 않는다.
 
 그래프를 끌어오기 위해 plotly 홈페이지 저장환경을 이용할 예정이다.
 
