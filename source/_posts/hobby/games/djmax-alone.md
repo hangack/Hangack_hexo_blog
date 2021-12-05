@@ -31,7 +31,7 @@ widgets:
     index: false
   - type: categories
     position: left
-thumbnail: /thumbnails/CS/steam.svg
+thumbnail: /thumbnails/games/steam.svg
 toc: true
 date: 2021-12-04 13:21:50
 ---

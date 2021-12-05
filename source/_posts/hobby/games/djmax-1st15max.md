@@ -32,7 +32,7 @@ widgets:
   - type: categories
     position: left
 toc: true
-thumbnail: /thumbnails/CS/steam.svg
+thumbnail: /thumbnails/games/steam.svg
 date: 2021-11-27 12:55:19
 ---
 
