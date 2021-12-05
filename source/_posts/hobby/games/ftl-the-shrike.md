@@ -1,12 +1,12 @@
 ---
-title: 와! 15성 첫 풀콤 [DJMAX Respect V] 
+title: 슈라이크(라니우스 타입B) [FTL]
 categories:
   - 취미(뻘짓중)
   - 게임
 tags:
   - 취미
   - 게임
-  - DJMAX Respect V
+  - 인디게임
 sidebar:
   left:
     sticky: true
@@ -33,14 +33,10 @@ widgets:
     position: left
 toc: true
 thumbnail: /thumbnails/CS/steam.svg
-date: 2021-11-27 12:55:19
+date: 2021-12-04 19:33:02
 ---
 
-![](https://steamuserimages-a.akamaihd.net/ugc/1823390989350695326/BE09B915971364F33B690F21142BC60C856B2CCF/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false)
-맥콤 생각하고 준내 비볐엌ㅋ
+![](https://steamuserimages-a.akamaihd.net/ugc/1823391714093260826/7AB85E684CF6A3C8200885426B94E724AC747F4D/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false)
 
+우리는 우연으로 승리할 수 있는 난이도를 "어려움"이라 부르기로 약속했어요
 
-
-![](https://steamuserimages-a.akamaihd.net/ugc/1823390989350695521/7FC5B846F6A6A389121B657A6FC76756675545BB/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false)
-
-나도 이제 초고수?

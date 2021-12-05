@@ -29,8 +29,8 @@ widgets:
     index: false
   - type: categories
     position: left
-thumbnail: /thumbnails/CS/img.svg
 toc: true
+thumbnail: /thumbnails/CS/img.svg
 ---
 
 

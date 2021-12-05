@@ -1,5 +1,5 @@
 ---
-title: 와! 15성 첫 풀콤 [DJMAX Respect V] 
+title: Alone [DJMAX Respect V]
 categories:
   - 취미(뻘짓중)
   - 게임
@@ -31,16 +31,11 @@ widgets:
     index: false
   - type: categories
     position: left
-toc: true
 thumbnail: /thumbnails/CS/steam.svg
-date: 2021-11-27 12:55:19
+toc: true
+date: 2021-12-04 13:21:50
 ---
 
-![](https://steamuserimages-a.akamaihd.net/ugc/1823390989350695326/BE09B915971364F33B690F21142BC60C856B2CCF/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false)
-맥콤 생각하고 준내 비볐엌ㅋ
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fo4-UDwaPBM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-
-
-![](https://steamuserimages-a.akamaihd.net/ugc/1823390989350695521/7FC5B846F6A6A389121B657A6FC76756675545BB/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false)
-
-나도 이제 초고수?
+쉰곡 서윗하네

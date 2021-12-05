@@ -1,12 +1,12 @@
 ---
-title: 와! 15성 첫 풀콤 [DJMAX Respect V] 
+title: ㅇㄱㅇㅅㅎㄷㅂㅎㅇ [ALTF4]
 categories:
   - 취미(뻘짓중)
   - 게임
 tags:
   - 취미
   - 게임
-  - DJMAX Respect V
+  - 인디게임
 sidebar:
   left:
     sticky: true
@@ -33,14 +33,11 @@ widgets:
     position: left
 toc: true
 thumbnail: /thumbnails/CS/steam.svg
-date: 2021-11-27 12:55:19
+date: 2021-12-04 02:33:21
 ---
 
-![](https://steamuserimages-a.akamaihd.net/ugc/1823390989350695326/BE09B915971364F33B690F21142BC60C856B2CCF/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false)
-맥콤 생각하고 준내 비볐엌ㅋ
+![](https://steamuserimages-a.akamaihd.net/ugc/1823391714098113676/B619D57ACE99AC554731A7522FF4BA3AA9C6DAF8/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false)
 
+메모리 누수 등으로 프레임 드랍 일어나면 유저, 닭 투척, 트레일러 등 엔티티 속도도 같이 느려져서 자체 하드모드 쌉가능.
 
-
-![](https://steamuserimages-a.akamaihd.net/ugc/1823390989350695521/7FC5B846F6A6A389121B657A6FC76756675545BB/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false)
-
-나도 이제 초고수?
+리부트하면 설치물도 전부 사라짐. 메모리에 할당됐던걸까?
