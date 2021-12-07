@@ -1,5 +1,5 @@
 ---
-title: Kaggle_Survey03-A - value_counts error size 0 [pandas]
+title: "Kaggle_Survey03-A: value_counts error size 0 [pandas]"
 categories:
   - 연습
   - 파이썬

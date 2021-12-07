@@ -1,5 +1,5 @@
 ---
-title: Kaggle_Survey01 - Pie 시각화 [plotly]
+title: "Kaggle_Survey01: Pie 시각화 [plotly]"
 categories:
   - 연습
   - 파이썬

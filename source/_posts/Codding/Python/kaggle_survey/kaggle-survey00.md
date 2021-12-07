@@ -1,5 +1,5 @@
 ---
-title: 'Kaggle_Survey00&#58; dtype Warning 해결하기 [pandas]'
+title: "Kaggle_Survey00: dtype Warning 해결하기 [pandas]"
 categories:
   - 연습
   - 파이썬
