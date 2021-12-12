@@ -229,7 +229,7 @@ URL 입력창에 `sitemap.xml`과 `rss2.xml`을 각각 제출하면 되겠다.
 
 ### Naver
 
-사실 난 Google 엔진 이외엔 거의 안쓰지만 우리나라 대표 검색 엔진인 네이버엔 나와야쓰것다.
+사실 난 Google 엔진 이외엔 거의 안쓰지만 우리나라 대표 검색 엔진인 네이버엔 나와야겠다.
 게다가 구글이랑 인증 및 설정 방식이 비슷하기 때문에 부담도 안된다.
 
 [네이버 웹마스터 도구](https://searchadvisor.naver.com/auth/callback?code=J2ypAGbuKY7szLtgnD&state=0b8403b2b180270c19db493a1264b46911fea612)에 접속해서 google과 똑같이 html로 사이트 소유 인증받으면 된다.
@@ -246,3 +246,6 @@ URL 입력창에 `sitemap.xml`과 `rss2.xml`을 각각 제출하면 되겠다.
 ## 외부링크
  - [내 github blog 글이 구글 검색에 나오는 법](https://chinsun9.github.io/2020/09/23/%EB%82%B4-github-blog-%EA%B8%80%EC%9D%B4-%EA%B5%AC%EA%B8%80-%EA%B2%80%EC%83%89%EC%97%90-%EB%82%98%EC%98%A4%EB%8A%94-%EB%B2%95/)
  - [[Hexo Blog] 구글 사이트 등록 및 검색엔진 최적화(SEO)](https://msj0319.github.io/2020/02/14/Hexo-Blog-%EA%B5%AC%EA%B8%80-%EC%82%AC%EC%9D%B4%ED%8A%B8-%EB%93%B1%EB%A1%9D-%EB%B0%8F-%EA%B2%80%EC%83%89%EC%97%94%EC%A7%84-%EC%B5%9C%EC%A0%81%ED%99%94-SEO/)
+ - [noindex](https://developers.google.com/search/docs/advanced/crawling/block-indexing?visit_id=637745640908544706-4252701127&rd=1)
+ - [robots.txt tester](https://support.google.com/webmasters/answer/6062598)
+ - [사이트맵 등록 성공, URL 색인 성공](https://julynine2.tistory.com/entry/%EA%B5%AC%EA%B8%80-%EC%84%9C%EC%B9%98-%EC%BD%98%EC%86%94%EC%97%90%EC%84%9C-%EC%82%AC%EC%9D%B4%ED%8A%B8%EB%A7%B5-%EB%93%B1%EB%A1%9D-%EC%84%B1%EA%B3%B5-URL-%EC%83%89%EC%9D%B8-%EC%83%9D%EC%84%B1-%EC%84%B1%EA%B3%B5)

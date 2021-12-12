@@ -105,8 +105,12 @@ deploy:
   type: git
   repo: https://github.com/hangack/hangack.github.io.git
   branch: main
-
 # SEO
+nofollow:
+  enable: true
+  exclude:
+    - exclude1.com
+    - exclude2.com
 sitemap:
   path: sitemap.xml
   tag: false

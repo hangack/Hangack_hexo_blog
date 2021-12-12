@@ -57,8 +57,6 @@ date: 2021-12-07 12:09:27
 
 <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plotly.com/~hangack/14.embed" height="525" width="100%"></iframe>
 
-<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plotly.com/~hangack/16.embed" height="525" width="100%"></iframe>
-
 
 ## Data
 - [Kaggle_Survey: 2017](https://www.kaggle.com/kaggle/kaggle-survey-2017)
