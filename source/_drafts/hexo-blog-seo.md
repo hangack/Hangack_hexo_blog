@@ -242,6 +242,8 @@ URL 입력창에 `sitemap.xml`과 `rss2.xml`을 각각 제출하면 되겠다.
 
 
 
+내 경우엔 사이트맵 제출이 굉장히 오래걸렸는데, 우선 URL 검사로 sitemap URL을 색인 요청해보자.
+
 
 ## 외부링크
  - [내 github blog 글이 구글 검색에 나오는 법](https://chinsun9.github.io/2020/09/23/%EB%82%B4-github-blog-%EA%B8%80%EC%9D%B4-%EA%B5%AC%EA%B8%80-%EA%B2%80%EC%83%89%EC%97%90-%EB%82%98%EC%98%A4%EB%8A%94-%EB%B2%95/)
