@@ -38,7 +38,7 @@ date: 2021-12-01 06:35:30
 ---
   
 
-## Rstudio 기본 설치 프로그램
+# Rstudio 기본 설치 프로그램
   
  - Rstudio는 [R 언어](https://cran.r-project.org/bin/windows/base/)를 사용하는 프로그램이니 R 언어팩을 설치한다.
 
@@ -47,7 +47,7 @@ date: 2021-12-01 06:35:30
  - [Rtools](https://cran.r-project.org/bin/windows/Rtools/)를 설치하면 R의 기본적인 Package 세트와 C/C++과 같은 의존성 세팅을 불러올 수 있다.
 
 
-### Rstudio 기본 세팅
+## Rstudio 기본 세팅
 
 나는 memo 앱을 사용할 때도 자동 줄바꿈을 사용하는 편이기에 `Soft-wrap`를 체크했다.
 
@@ -58,7 +58,7 @@ date: 2021-12-01 06:35:30
 ![default text encoding](\images\2112\R-download\encoding.png)
 
 
-### R Script
+## R Script
 
 R studio 상단의 files 탭에서 project 경로를 생성하거나 py 혹은 ipynb 처럼 R Script, Rmd 파일창을 열 수 있다.
 
@@ -66,7 +66,7 @@ R studio 상단의 files 탭에서 project 경로를 생성하거나 py 혹은 i
 
 
 
-## Rtools path 설정
+# Rtools path 설정
 
 R Script 등을 열었다면 Rtools의 경로를 지정해준다.
 
@@ -81,7 +81,7 @@ R은 PL/SQL처럼 동작한다. 원하는 명령어를 작성하고 해당 열�
 그냥 깔끔하게 Rstudio를 껏다키는걸 추천한다.
 
 
-## 패키지 불러오기
+# 패키지 불러오기
 
 ```R
 install.packages("Package_Name")
@@ -106,13 +106,13 @@ library(Package_Name)
 
 
 
-## 외부링크
+# 외부링크
  - [R language](https://cran.r-project.org/bin/windows/base/)
  - [R 패키지 리스트](https://cran.r-project.org/web/packages/available_packages_by_date.html)
  - [Rstudio](https://www.rstudio.com/products/rstudio/download/#download)
  - [Rtools](https://cran.r-project.org/bin/windows/Rtools/)
 
-### 튜토리얼
+## 튜토리얼
  - [R for data science](https://r4ds.had.co.nz/)에서 기본적인 시각화(ch.03) 및 기초 문법(ch.05)을 확인할 수 있다.
  - [ggplot2 extensions - gallery](https://exts.ggplot2.tidyverse.org/gallery/)에서는 고-급 그래프 예제를 가져올 수 있다.
  - [R cheatsheets](https://www.rstudio.com/resources/cheatsheets/)

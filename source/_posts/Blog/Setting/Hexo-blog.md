@@ -35,8 +35,8 @@ toc: true
 thumbnail: /thumbnails/CS/hexo.svg
 date: 2021-11-01 12:24:46
 ---
-## Hexo 설치
-### Node.js 설치
+# Hexo 설치
+## Node.js 설치
 터미널로 hexo 언어를 설치하기 위해 툴을 받아올 nodejs를 설치한다.
 이 때, 버그 활발히 픽스가 진행중인 신버전보다 구버전 넘버를 권장한다.
 
@@ -51,12 +51,12 @@ node가 정상적으로 동작하는걸 확인하기 위해 다음 명령를 터
 $ node -v
 ```
 
-###
+##
 각종 노드 명령어 확인은 다음 명령어로 확인할 수 있다.
 ```
 $ npm
 ```
-###
+##
 노드의 동작을 확인했으면 node.js 명령어를 이용해 원래 목적이었던 Hexo 언어를 설치한다
 ```
 $ npm install -g hexo-cli
@@ -80,7 +80,7 @@ $ hexo server
 를 입력한 뒤 나오는 http 로컬 주소로 진입한다.
 myblog를 github에 백업하려면 myblog repository를 생성하여 백업을 진행한다.
 
-### Hexo 블로그 배포하기
+## Hexo 블로그 배포하기
 로컬 주소가 정상 작동되는게 확인됐으면 블로그를 온라인으로 배포해야하는데, 이 역할을 github에 특정 repository를 생성하여 진행한다.
 repository 명은 [**유저아이디.github.io**]으로 생성한다.
 
@@ -114,5 +114,5 @@ $ hexo deploy
 사이트 주소는 위 #URL에서 입력한 [**https://유저아이디.github.io**]와 동일하다.
 
 
-## 외부링크
+# 외부링크
  - [hexo docs(sub kor)](https://hexo.io/ko/docs/index.html)

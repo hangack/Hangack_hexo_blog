@@ -37,11 +37,11 @@ date: 2021-11-24 06:17:54
 ---
 
 
-## utterances 세팅  
+# utterances 세팅  
 
 [utterances](https://utteranc.es/)에 들어가서 설명을 읽어보는게 좋다.
 
-### github repo 생성
+## github repo 생성
 
 사용하기 위해 개인 github에 comment용 **public** repository를 생성한다.
 
@@ -50,13 +50,13 @@ date: 2021-11-24 06:17:54
 굳이 repo를 생성하고 싶지 않다면 userID.github.io repo를 사용해도 된다.
 
 
-### app 설치
+## app 설치
 
 [utterances app](https://github.com/apps/utterances)에 들어가서 github에 app을 설치하자.
 나는 comment가 들어갈 repo인 `hangack_blog_comment`만 지정했다.
 
 
-### 요소 설정하기
+## 요소 설정하기
 
 `repo: `박스에 위에서 생성한 개인 `userID/repoName`을 입력한다.
 
@@ -77,9 +77,9 @@ date: 2021-11-24 06:17:54
 6. specific term
  - 포스트 제목에 기입된 특정 단어를 기준으로 작성된다.
 
-## 댓글 위젯 넣기
+# 댓글 위젯 넣기
 
-### utterances에서 제안된 방식
+## utterances에서 제안된 방식
 
 테마 등 설정을 전부 끝냈다면 **Enable Utterances** 분류에 script 코드가 생겼을 것이다.
 
@@ -98,7 +98,7 @@ date: 2021-11-24 06:17:54
 hexo의 경우엔 post.md 혹은 draft.md로 불러올 수 있겠지
 
 
-### hexo icarus에서
+## hexo icarus에서
 
 icarus에서는 utterances 타입을 지원하기에 `_config.theme.yml`에 comment 항목을 찾아서 아래 형식대로 기입하자.
 
@@ -111,7 +111,7 @@ comment:
     crossorigin: anonymous
 ```
 
-### 어? 안되잖아?
+## 어? 안되잖아?
 
 `utterances.json` 파일을 뜯어봤더니 crossorigin 요소에 대한 처리 방식이 없었다.
 
@@ -128,6 +128,6 @@ comment:
 댓글댓글단다
 
 
-## 외부링크
+# 외부링크
  - [disqus에서 utterances로 바꾸기](https://chinsun9.github.io/2021/06/08/blog-comment-migration-from-disqus-to-utterances/)
  - [utterances 적용](http://astrod.github.io/etc/2018/05/28/utterances-%EC%A0%81%EC%9A%A9/)

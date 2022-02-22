@@ -36,12 +36,12 @@ thumbnail: /thumbnails/CS/hexo.svg
 date: 2021-11-21 8:45:32
 ---
   
-## Category
+# Category
  
 <center><img src="\images\2111\Heox_blog_Category\category.png" alt="ㅏㅏ 이것이 Category란 것이다"></center>
 
 
-## Hexo Category 설정하기
+# Hexo Category 설정하기
 
 Hexo를 처음 사용한다면 Front-matter 영역에는 기본적으로 title, date, tags만 나와있을 것이다.
 
@@ -59,7 +59,7 @@ tags:
 ※ 태그와 카테고리의 가장 큰 차이점: 카테고리는 하위 `-`로 하위 카테고리가 생성되지만, 태그는 하위 태그의 개념이 없다.
 
 
-### scaffolds로 post 기본설정하기
+## scaffolds로 post 기본설정하기
 
 포스팅이 한두개도 아니고 포스팅을 할 때마다 `categories:`를 넣어주는건 너무나도 귀찮은 방식이다.
 
@@ -69,5 +69,5 @@ tags:
 
 
 
-## 외부링크
+# 외부링크
  - [Hexo Front-matter](https://hexo.io/ko/docs/front-matter.html)

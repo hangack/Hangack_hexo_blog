@@ -36,10 +36,10 @@ thumbnail: /thumbnails/CS/python.svg
 date: 2021-11-11 07:27:24
 ---
 
-## Kaggle Survey Data Transformation
+# Kaggle Survey Data Transformation
 [2021 Kaggle Machine Learning & Data Science Survey](https://www.kaggle.com/c/kaggle-survey-2021) 에서 질문지를 나누는 작업 중 여러 part로 다수의 칼럼명을 가진 question number 부분의 [칼럼명을 뽑아내는 함수][Data Transformation]를 찾았고, 이 함수에 대응할 수 있으며 질문의 A,B type을 특정해낼 수 있는 input 함수를 짜봤다.
 
-### 데이터 칼럼명 나누기
+## 데이터 칼럼명 나누기
 
 
 ```python
@@ -80,7 +80,7 @@ df_col_name
 
 
 
-### 문자열을 인식해서 input 값을 특정해주는 함수 만들기
+## 문자열을 인식해서 input 값을 특정해주는 함수 만들기
 
 questions_count에 대응할 수 있는 input 함수를 짜낸다.
 
@@ -117,7 +117,7 @@ line 9의 if문에선 `'A' or 'B'` 문자가 들어있는 문자열을 list에�
 
 line 14의 조건문은 sub Question의 마지막 열을 입력받는 조건문으로 사용자가 'kaggle_survey'에서 직접 확인해서 input 값을 정해야한다.
 
-### 칼럼명 리스트로 뽑아내기
+## 칼럼명 리스트로 뽑아내기
 
 [Data Transformation][Data Transformation]에서 가져온 코드로, 원하는 sub_Question들을 뽑아낼 수 있는 함수다.
 
@@ -377,13 +377,13 @@ input_num()
 
 
 
-## 외부 링크
+# 외부 링크
  - [Data Transformation][Data Transformation]
 [Data Transformation]: https://www.kaggle.com/j2hoon85/for-newbie-let-s-do-data-transformation
  - [리스트에서 특정 문자열을 포함한 원소 뽑아내기][list 특정 문자열]
  [list 특정 문자열]: https://lapina.tistory.com/108
 
-## 기억이 안날 때는 응애..
+# 기억이 안날 때는 응애..
  - [python 함수](https://hangack.github.io/2021/11/02/Codding/Python/basic/python11-define/)
  - [python 입출력](https://hangack.github.io/2021/11/02/Codding/Python/basic/python12-%EC%9E%85%EC%B6%9C%EB%A0%A5/)
  - [python if문](https://hangack.github.io/2021/11/01/Codding/Python/basic/python7-%EC%A0%9C%EC%96%B4%EB%AC%B8/)

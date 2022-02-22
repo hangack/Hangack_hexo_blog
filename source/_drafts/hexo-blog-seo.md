@@ -37,7 +37,7 @@ date: 2021-11-29 06:32:28
 ---
 
 
-## 검색이 안되네?
+# 검색이 안되네?
 
 세팅전을 참 오래 구웠지만 정작 중요한 블로그 URL을 검색 엔진에 등록조차 하지 않았다.
 
@@ -46,7 +46,7 @@ date: 2021-11-29 06:32:28
 내 블로그가 딥웹도 아니고 검색은 되야하지 않겠어?
 
 
-## Hexo Plugin (SEO)
+# Hexo Plugin (SEO)
 
 SEO: [검색엔진 최적화(search engine optimization)](https://ko.wikipedia.org/wiki/%EA%B2%80%EC%83%89_%EC%97%94%EC%A7%84_%EC%B5%9C%EC%A0%81%ED%99%94)
 
@@ -60,7 +60,7 @@ SEO: [검색엔진 최적화(search engine optimization)](https://ko.wikipedia.o
  - hexo-generator-robotstxt
 
 
-### hexo-auto-canonical
+## hexo-auto-canonical
 
 canonical: 포스트마다 메타 태그를 생성시켜주는 플러그인으로 검색 엔진이 페이지 제목과 검색어를 잘 연결할 수 있도록 유도한다.
 
@@ -83,7 +83,7 @@ $ npm i hexo-auto-canonical
 ```
 
 
-### hexo-autonofollow
+## hexo-autonofollow
 
 nofollow: 정보를 수집하는 봇의 외부링크 수집을 막아준다.
 
@@ -103,7 +103,7 @@ nofollow:
 ```
 
 
-### hexo-generator-seo-friendly-sitemap
+## hexo-generator-seo-friendly-sitemap
 
 `sitemap.xml` 파일로 크롤링하는 봇이 효율적으로 작업할 수 있도록 유도한다.
 
@@ -120,7 +120,7 @@ sitemap:
 
 
 
-### hexo-generator-feed
+## hexo-generator-feed
 
 feed: `Atom1.0`과 `RSS2.0` 같은 피드를 의미하며, 봇이 최신 정보를 쉽게 수집할 수 있도록 유도한다.
 
@@ -135,7 +135,7 @@ feed:
   limit: 20
 ```
 
-### hexo-generator-robotstxt
+## hexo-generator-robotstxt
 
 `robots.txt` 파일을 생성해서 봇에게 블로그 페이지 수집 권한에 대해 알려주는 역할을 한다.
 
@@ -153,7 +153,7 @@ robotstxt:
 
 
 
-### 요약
+## 요약
 
 ```shell
 $ npm install hexo-auto-canonical //ikarus 테마는 생략
@@ -189,17 +189,17 @@ robotstxt:
 ```
 
 
-### 적용 확인하기
+## 적용 확인하기
 
 `hexo g` 이후 public 디렉토리 내에 rss, sitemap, robots가 정상적으로 생성됐는지 확인해보자.
 
 
-## 검색엔진 등록하기
+# 검색엔진 등록하기
 
 세팅전 열심히 지졌으니 이젠 검색 엔진에 떠먹여주면 끝난다.
 
 
-### Google
+## Google
 
 우선 신과 같은 시선에 있는자 **Google**부터 시작하자
 
@@ -227,7 +227,7 @@ URL 입력창에 `sitemap.xml`과 `rss2.xml`을 각각 제출하면 되겠다.
 사이트맵 색인에 더럽게 오래걸리니 가져올 수 없음 상태여도 일단 다른 검색 엔진도 설정하고 기다려보자.
 
 
-### Naver
+## Naver
 
 사실 난 Google 엔진 이외엔 거의 안쓰지만 우리나라 대표 검색 엔진인 네이버엔 나와야겠다.
 게다가 구글이랑 인증 및 설정 방식이 비슷하기 때문에 부담도 안된다.
@@ -245,7 +245,7 @@ URL 입력창에 `sitemap.xml`과 `rss2.xml`을 각각 제출하면 되겠다.
 내 경우엔 사이트맵 제출이 굉장히 오래걸렸는데, 우선 URL 검사로 sitemap URL을 색인 요청해보자.
 
 
-## 외부링크
+# 외부링크
  - [내 github blog 글이 구글 검색에 나오는 법](https://chinsun9.github.io/2020/09/23/%EB%82%B4-github-blog-%EA%B8%80%EC%9D%B4-%EA%B5%AC%EA%B8%80-%EA%B2%80%EC%83%89%EC%97%90-%EB%82%98%EC%98%A4%EB%8A%94-%EB%B2%95/)
  - [[Hexo Blog] 구글 사이트 등록 및 검색엔진 최적화(SEO)](https://msj0319.github.io/2020/02/14/Hexo-Blog-%EA%B5%AC%EA%B8%80-%EC%82%AC%EC%9D%B4%ED%8A%B8-%EB%93%B1%EB%A1%9D-%EB%B0%8F-%EA%B2%80%EC%83%89%EC%97%94%EC%A7%84-%EC%B5%9C%EC%A0%81%ED%99%94-SEO/)
  - [noindex](https://developers.google.com/search/docs/advanced/crawling/block-indexing?visit_id=637745640908544706-4252701127&rd=1)

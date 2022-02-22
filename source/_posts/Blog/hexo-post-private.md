@@ -34,13 +34,13 @@ thumbnail: /thumbnails/CS/hexo.svg
 date: 2021-11-16 02:37:18
 ---
 
-## UnderBar( _ ) 사용하기
+# UnderBar( _ ) 사용하기
 
 UnderBar( `_` )를 title 앞에 붙여주면 hexo에서 private post로 인식하고 배포하지 않는다.
 ![MAE-MSE-RMSE.md: 비공개](/images/2111/private_post/dash.png)
 
 
-## _drafts 폴더로 관리
+# _drafts 폴더로 관리
 
 `scaffolds` 폴더에 new post로 생성되는 포스트의 기본 [layout]을 저장할 수 있다.
 `_config`의 default값은 `post`로 아래 명령어에 [layout]을 지정하지 않는다면 new post는 `post` layout으로 생성된다
@@ -55,5 +55,5 @@ $ hexo new draft <title>
 ```
 
 
-## 외부링크
+# 외부링크
  - [Hexo 명령어](https://hexo.io/ko/docs/commands.html) 

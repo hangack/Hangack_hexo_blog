@@ -36,13 +36,13 @@ thumbnail: /thumbnails/CS/hexo.svg
 date: 2021-11-23 11:59:56
 ---
 
-## Hexo 이미지 변경
+# Hexo 이미지 변경
 
 hexo blog에서 사용하는 avatar, favicon, logo 등을 변경하는 방법은 간단하게 `public\img` 경로의 파일명을 그대로 이미지만 교체해주면 된다.
 
 <img src="/images\2111\Hexo_blog_img/public.png" alt="public">
 
-### `Hexo clean`의 경우 문제점
+## `Hexo clean`의 경우 문제점
 
 하지만 블로그 관리 초기라 설정을 변경하거나 이미지를 교체하는 등 파일 첨삭이 있을 때마다 `$ hexo clean` 명령어를 남발하는데,
 clean은 캐쉬 파일인 public 폴더를 통으로 삭제하는 명령어다.
@@ -59,7 +59,7 @@ generate는 불러올 theme와 user의 config를 유지한 채, user의 source �
 <img src="/images\2111\Hexo_blog_img/source.png" alt="source">
 
 
-### _config.theme.yml 설정 변경
+## _config.theme.yml 설정 변경
 
 경로를 수정하기 전에 각각의 이미지가 어떤 요소를 뜻하는지 알아야한다.
 

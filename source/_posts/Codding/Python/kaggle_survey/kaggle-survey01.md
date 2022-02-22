@@ -38,7 +38,7 @@ toc: true
 date: 2021-12-02 11:17:39
 ---
 
-## dataset 구조 확인하기
+# dataset 구조 확인하기
 
 ```python
 import pandas as pd
@@ -54,7 +54,7 @@ df = pd.read_csv("https://raw.githubusercontent.com/hangack/project-green/main/K
 Columns 구조는 [문자열에서 특정 값을 뽑아내고 input을 받는 함수](https://hangack.github.io/2021/11/11/Codding/Python/kaggle_survey/Data-Transformation-input-num/) 포스트에서 확인했으므로 넘어간다.
 
 
-## 비교 대상 선정하기
+# 비교 대상 선정하기
 
 2021 kaggle_survey 분석을 계속 진행한다.
 
@@ -71,7 +71,7 @@ df_Jp = df_ChJp[df_ChJp.Q3.isin(["Japan"])]
 ```
 
 
-## Gender [plotly: Pie]
+# Gender [plotly: Pie]
 
 일단 간단히 비교할 수 있는 Gender(Q2)와 Age(Q1) 중 Q2를 Pie 그래프로 시각화할 예정이다.
 
@@ -96,7 +96,7 @@ fig_j.show()
 ![Pie1](\images\2112\kaggle-survey01\pie1.png)
 
 
-### 대응하는 value_counts 함수 만들기
+## 대응하는 value_counts 함수 만들기
 
 앞으로 많은 그래프를 그려낼거고 `df_Jp['Q2'][1:].value_counts()` 형식이 반복된다.
 
@@ -114,7 +114,7 @@ df_Ch_gen = indiQ_value_counts(df_Ch, 'Q2')
 ```
 
 
-### subplots: 그래프 figure 합치기
+## subplots: 그래프 figure 합치기
 
 japan과 china 함수를 각각의 figure로 보기엔 불편하다.
 subplost를 이용해 하나의 fig로 합칠 예정이다.
@@ -144,7 +144,7 @@ fig.show()
 ![Pie1](\images\2112\kaggle-survey01\pie2.png)
 
 
-### text, color 커스텀
+## text, color 커스텀
 
 커스텀 색상이나 타이틀 등 텍스트를 넣어 간단한 시각적 커스텀을 입혀보자
 
@@ -175,7 +175,7 @@ fig.show()
 ![Pie1](\images\2112\kaggle-survey01\pie3.png)
 
 
-### 시각 요소 커스텀
+## 시각 요소 커스텀
 
 Trace의 title이 Pie 외부에 위치하는게 맘에들지 않는 부분을 수정하기 위해 시각 효과에서 legend를 제거하는 등 각종 요소 값을 변경한다.
 
@@ -214,7 +214,7 @@ fig.show()
 <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plotly.com/~hangack/1.embed" height="525" width="100%"></iframe>
 
 
-## 외부링크
+# 외부링크
 - [plotly.graph_objects.Pie](https://plotly.com/python-api-reference/generated/plotly.graph_objects.Pie.html)
 - [Pie Charts in Python](https://plotly.com/python/pie-charts/)
 - [plotly.subplots.make_subplots](https://plotly.com/python-api-reference/generated/plotly.subplots.make_subplots.html)

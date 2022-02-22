@@ -39,9 +39,9 @@ date: 2021-11-03 16:49:20
 
 [Matplotlib 튜토리얼](https://matplotlib.org/stable/gallery/index.html)
 
-## pyplot  API
+# pyplot  API
 
-### pyplot 예제
+## pyplot 예제
 
 
 ```python
@@ -184,9 +184,9 @@ plt.show()
 plt.close()
 ```
 
-## pylot.subplots (객체지향 API)
+# pylot.subplots (객체지향 API)
 
-### pylot.subplots 예제1
+## pylot.subplots 예제1
 
 
 ```python

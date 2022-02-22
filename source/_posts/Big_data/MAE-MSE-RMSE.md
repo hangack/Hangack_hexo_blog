@@ -34,7 +34,7 @@ thumbnail: /thumbnails/CS/mathjax.png
 date: 2021-11-12 14:52:57
 ---
   
-## DATA
+# DATA
 
 Row(행)가 $n$개 있는 dataframe에서;
 실측 값에 대한 dataframe의 column(열)을 $Y$로 봤을 때,
@@ -61,33 +61,33 @@ $$
 \end{pmatrix}
 $$
 
-## 평가 지표
+# 평가 지표
 
 실측값$Y$와 추정값$\hat Y$가 있으니 두 값의 차이인 오차(error: $\Delta y_i = y_i-\hat{y_i}$)가 발생한다.
 $\Delta y_i$를 여러 방식으로 가공해서 측정값의 신뢰도를 보여주는게 평가 지표다.
 
 다양한 평가지표 중 RMSE에 관해 공부할 것이며, MSE, MAE는 RMSE와 매우 유사한 형태를 가진다.
 
-### MAE(Mean Absolute Error): 평균 절대 오차
+## MAE(Mean Absolute Error): 평균 절대 오차
 
 $$MAE=\sum_{i=1}^n\frac{\vert y_i-\hat{y_i}\vert}{n}$$
 
 $\Delta y_i$의 절대값을 모두 더한 값의 평균이다.
 
-### MSE(Mean Squared Error): 평균 제곱 오차
+## MSE(Mean Squared Error): 평균 제곱 오차
 
 $$MSE=\sum_{i=1}^n\frac{(y_i-\hat{y_i})^2}{n}$$
 
 $\Delta y_i$의 제곱을 모두 더한 값의 평균이다.
 
-### RMSE(Root Mean Square Error): 평균 제곱근 오차
+## RMSE(Root Mean Square Error): 평균 제곱근 오차
 
 $$RMSE=\sqrt{\sum_{i=1}^n\frac{(y_i-\hat{y_i})^2}{n}}$$
 
 $\Delta y_i$의 제곱을 모두 더한 값의 평균에 Root를 씌운 형태로 $\sqrt{MSE}=RMSE$다.
 
 
-#### 특징
+### 특징
 
 위 세 지표는 모두 오차 그 자체인 $y_i-\hat{y_i}$를 포함해 값이 낮을수록 좋은 추정모델임을 의미한다.
 단, 실측값과 추정값의 차에 지나치게 의존하는 경향을 보여 $3-1=2$와 $100-102=2$ 모두 동일한 평가로 보여진다.
@@ -99,11 +99,11 @@ MSE의 경우 오차 제곱하기 때문에 $\vert error\vert<1$일 경우 error
 RMSE에서는 MSE에 Root를 씌웠기 때문에 MSE만큼의 왜곡은 발생하지 않는다.
 
 
-## python
+# python
 
 간단한 예시로 아래의 $Y_1$과 $Y_2$ python 예제가 있다.
 
-### MAE
+## MAE
 
 ```python
 import numpy as np
@@ -118,7 +118,7 @@ def mean_absolute_error(y_true, y_pred):
     return mae
 ```
 
-### MSE
+## MSE
 
 ```python
 import numpy as np
@@ -133,7 +133,7 @@ def mean_squared_error(y_true, y_pred):
     return mse
 ```
 
-### RMSE
+## RMSE
 
 ```python
 import numpy as np

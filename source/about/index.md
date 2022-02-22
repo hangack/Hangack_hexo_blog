@@ -51,11 +51,25 @@ toc: true
    - math
    - numpy
    - pandas
+     - pandas_gbq
    - Matplotlib
    - plotly
+   - time
+   - datetime
+   - re
+   - beautifulsoup4
+   - request
+   - selenium
+   - psycogpg2
+   - google-api-core
+     - oauth2
+   - pyinstaller
+   - pyspark
  - npm
    - nodejs
  - PL/SQL
+ - PostgreSQL
+ - BigQuery
  - java
    - js: JavaScript
    - jsp: JavaServer Pages
@@ -86,6 +100,8 @@ toc: true
  - VS Code
  - Rstudio
    - Rtools
+ - nncron
+ - GCP: Google Cloud Platform
 
 #### 온라인
  - Google Colab

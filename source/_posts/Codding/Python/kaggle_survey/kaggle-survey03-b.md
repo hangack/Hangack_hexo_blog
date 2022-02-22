@@ -38,7 +38,7 @@ thumbnail: /thumbnails/CS/pandas.svg
 date: 2021-12-06 11:17:40
 ---
 
-## Japan & China: IDE's
+# Japan & China: IDE's
 
 [Program_Language 과정](https://hangack.github.io/2021/12/05/Codding/Python/kaggle_survey/kaggle-survey03/)과 동일
 
@@ -46,7 +46,7 @@ Treemap을 뽑으려니 "Jupyter (JupyterLab, Jupyter Notebooks, etc)"와 "Visua
 
 각각 "Jupyter"와 "VS / VSCode"로 간략화 하려한다.
 
-### 1차 시도
+## 1차 시도
 
 ```python
 df_IDEs_JnC_21n19.replace(to_replace = 'Jupyter (JupyterLab, Jupyter Notebooks, etc)', value =  'Jupyter', inplace = True)
@@ -55,7 +55,7 @@ df_IDEs_JnC_21n19.replace(to_replace = 'Visual Studio / Visual Studio Code', val
 
 둘 다 변경되지 않았다.
 
-### 2차 시도
+## 2차 시도
 
 실제 string을 확인해보자.
 
@@ -76,7 +76,7 @@ df_IDEs_JnC_21n19.replace(to_replace = ' Visual Studio / Visual Studio Code ', v
 
 성공적으로 변경됐다.
 
-#### 더 간편하게
+### 더 간편하게
 
 근대 이럴거면 그냥 요소를 뽑아내서 직접 삽입하는게 편할 듯하다.
 
@@ -88,7 +88,7 @@ df_IDEs_JnC_21n19.replace(to_replace = df_IDEs_JnC_21n19.loc[29,"IDE\'s"], value
 인덱스와 칼럼명을 직접 지정해 뽑아낸 string과 동일한 요소를 모두 변경한다.
 
 
-### 정규식?
+## 정규식?
 
 ' Visual Studio / Visual Studio Code ' 요소는 실제로는 아니지만 정규 표현식으로 해석할 여지가 있다.
 정 방법을 못찾겠다면 `regex` 요소를 `True`로 지정해보는것도 방법이 될 수 있다.
@@ -98,10 +98,10 @@ df_IDEs_JnC_21n19.replace(to_replace = 'Jupyter (JupyterLab, Jupyter Notebooks, 
 df_IDEs_JnC_21n19.replace(to_replace = 'Visual Studio / Visual Studio Code', value = 'VS / VSCode', inplace = True, regex = True)
 ```
 
-## IDE's Treemap
+# IDE's Treemap
 
 ![IDE's](\images\2112\kaggle-survey03\IDEs.png)
 
 
-## 외부링크
+# 외부링크
 - [pandas.DataFrame.replace](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.replace.html)

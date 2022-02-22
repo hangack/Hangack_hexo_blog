@@ -37,14 +37,14 @@ date: 2021-11-30 06:20:51
 ---
   
 
-## plotly에 그래프 업로드
+# plotly에 그래프 업로드
 
 [Kaggle_Survey01: Pie [Plotly]](https://hangack.github.io/2021/12/02/Codding/Python/kaggle_survey/kaggle-survey01/)에서 작성한 plotly chart는 동적 그래프라 이미지로 사용하긴 아쉽고 github page의 ipynb에서도 동작하지 않는다.
 
 그래프를 끌어오기 위해 plotly 홈페이지 저장환경을 이용할 예정이다.
 
 
-### chart_studio 설치
+## chart_studio 설치
 
 우선 사용할 작업환경에 [chart_studio](https://plotly.com/python/getting-started-with-chart-studio/) 라이브러리를 설치해주자.
 
@@ -57,7 +57,7 @@ $ pip i chart_studio
 
 `chart_studio`는 plotly 그래프를 plotly 홈페이지에 업로드하고 원한다면 html iframe 태그로 변환까지 해주는 녀석이다.
 
-### plotly Access Key
+## plotly Access Key
 
 [plotly](https://chart-studio.plotly.com/feed/#/) 개인 공간에 업로드 할 예정이니 plotly 회원가입을 진행하자.
 
@@ -84,12 +84,12 @@ chart_studio.plotly.plot(fig, filename = '파일명', auto_open=True)
 out된 url에 들어가보면 그래프가 업로드 되었을거다.
 
 
-## 웹페이지에 그래프 끌어오기
+# 웹페이지에 그래프 끌어오기
 
 원래 목적이었던 웹페이지에서 그래프를 사용해보자.
 
 
-### html iframe
+## html iframe
 
 iframe(inline frame) html 형식을 수작업으로 작성해도 되겠지만 `chart_studio` 모듈 내 라이브러리에서도 변환할 수 있다.
 
@@ -108,7 +108,7 @@ iframe(inline frame):
 <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plotly.com/~hangack/1.embed" height="525" width="100%"></iframe>
 
 
-### hexo tag plugin iframe
+## hexo tag plugin iframe
 
 hexo 환경에서 작성중이라면 기본 plugin인 [tag](https://hexo.io/ko/docs/tag-plugins.html) 문법으로도 iframe을 삽입할 수 있다.
 
@@ -120,5 +120,5 @@ hexo 환경에서 작성중이라면 기본 plugin인 [tag](https://hexo.io/ko/d
 
 
 
-## 외부링크
+# 외부링크
 - [Plotly 그래프 깃헙 블로그에 올리기](https://dschloe.github.io/python/python_edu/03_datavisualisation/ch_plotly_html/)

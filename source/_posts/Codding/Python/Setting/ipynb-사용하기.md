@@ -38,7 +38,7 @@ date: 2021-11-07 09:54:25
   
 IPython Notebook은 python 코딩과 html을 지원하고 수식까지 표현 가능한 markdown 텍스트 박스를 동시에 사용해 가독성을 올리기 위해 제안된 방식이다.
 
-## Jupyter
+# Jupyter
   
 
 기본적으로 로컬환경에서 사용가능한 Jupyter 시리즈가 있다.
@@ -53,7 +53,7 @@ ipynb 단축키는 커멘트 팔렛트에서 확인 및 수정할 수 있다.
 - tab
 등 다양하게 있으니 기호에 맞춰 설정하자.
 
-## Google Colab
+# Google Colab
 
 온라인 환경에선 다양한 플렛폼이 ipynb 환경을 지원하지만 접근성이 좋고 작업 리소스까지 지원해주며 저장공간 연동까지 가능한 [Google Colab](https://colab.research.google.com/)이 대표적이다.
 Google 플렛폼이므로 당연히 [google drive](https://drive.google.com/) 연동을 지원하고, [Github](https://github.com/) 업로드도 가능하다.

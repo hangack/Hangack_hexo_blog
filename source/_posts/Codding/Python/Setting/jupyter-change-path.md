@@ -83,5 +83,5 @@ notebook 설정을 열어서 아래 두 경로를 지워 config 설정을 참조
 
 
 
-## 외부링크
+# 외부링크
  - [주피터 노트북 환경설정 : 시작폴더 변경방법](https://ooyoung.tistory.com/7)

@@ -62,5 +62,5 @@ $ hexo new page about
 index.md가 about에 대한 page로 포스트 작성하듯 원하는 내용을 작성하면된다.
 
 
-## 외부링크
+# 외부링크
  - [How to add route for Hexo?](https://stackoverflow.com/questions/29167023/how-to-add-route-for-hexo)

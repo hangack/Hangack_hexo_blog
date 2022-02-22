@@ -6,6 +6,7 @@ categories:
   - 모듈
 tags:
   - 파이썬
+  - numpy
 widgets:
   - type: profile
     position: left

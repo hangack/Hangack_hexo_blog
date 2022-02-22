@@ -40,7 +40,7 @@ date: 2021-12-06 01:11:21
 
 [Kaggle_Survey03 - Treemap 시각화 [plotly]](https://hangack.github.io/2021/12/05/Codding/Python/kaggle_survey/kaggle-survey03/)에서 넘어왔다.
 
-## 오류 식별
+# 오류 식별
 
 ```python
 df21_Ch = df21_ChJp[df21_ChJp.Q3.isin(["China"])]
@@ -99,7 +99,7 @@ df21_PL_JnC = pd.concat([df21_Jp_PL,df21_Ch_PL], ignore_index=True)
     IndexError: index 0 is out of bounds for axis 0 with size 0
 
 
-### 결측 column 식별 및 제거
+## 결측 column 식별 및 제거
 
 ***IndexError**: index 0 is out of bounds for axis 0 with size 0
 오류가 식별됐다.

@@ -56,9 +56,9 @@ df = pd.read_csv("E:/Fear/Univ/Big_data/Training/Github/Codding-base-Python/Pyth
 
 cvs datasat을 불러오는데 위와 같이 `DtypeWarning` 이라는 경고가 출력되었다.
 
-## DtypeWarning 해결하기
+# DtypeWarning 해결하기
 
-### filterwarnings
+## filterwarnings
 경고 그 자체가 원하는 작업은 아니지만 문제가 발생하지 않는 이상 user는 경고를 무시해도 상관없다.
 
 권장하지 않지만 거슬린다면 `warnings` 모듈의 경고 필터 `ignore`를 사용해 경고 출력을 무시할 수 있다.
@@ -69,7 +69,7 @@ from warnings import filterwarnings
 filterwarnings('ignore')
 ```
 
-### low_memory
+## low_memory
 
 하지만 근본적인 해결은 아니므로 terminal이 제안한 방식인 `low_memory=False` 를 넣어 해결할 수 있다.
 
@@ -82,7 +82,7 @@ df = pd.read_csv("csv url", low_memory=False)
 
 방대한 데이터를 처리해야되서 Dtype 추측 방식이 부담된다면?
 
-### dtype 형식 지정
+## dtype 형식 지정
 
 불러올 file의 문자 형식을 알고 있다면 `dtype`을 지정해 warning을 해결하고 memory 가용량도 줄일 수 있다.
 
@@ -91,6 +91,6 @@ df = pd.read_csv("csv url", low_memory=False)
 df = pd.read_csv("csv url", dtype='unicode')
 ```
 
-## 외부링크
+# 외부링크
  - [warnings — 경고 제어](https://docs.python.org/ko/3/library/warnings.html)
  - [DataFrame의 칼럼](https://wikidocs.net/46751)

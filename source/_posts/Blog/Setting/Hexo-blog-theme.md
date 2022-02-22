@@ -38,12 +38,12 @@ date: 2021-11-02 18:22:56
 
 [Hexo 블로그 만들기](https://hangack.github.io/2021/11/01/Blog/Setting/Hexo-blog/)
 
-## 테마 선택
+# 테마 선택
 
 [hexo themes](https://hexo.io/themes/)에서 다양한 오픈소스 테마를 얻을 수 있다.
 
 
-## icarus 시작하기
+# icarus 시작하기
 
 icarus에서 지원하는 여러 테마중에 [바닐라 Icarus](https://ppoffice.github.io/hexo-theme-icarus/uncategorized/getting-started-with-icarus/#install-npm)로 설정할 예정이다.
 
@@ -70,5 +70,5 @@ theme: icarus
 `hexo s`로 local에서 적용을 확인하고 `hexo g -d`로 적용, 배포를 진행하면된다.
 
 
-## 추가링크
+# 추가링크
 - [Git clone으로 theme 받기](https://hangack.github.io/2021/11/02/Blog/Setting/Hexo-blog-theme/)

@@ -37,12 +37,12 @@ date: 2021-11-22 20:42:59
 ---
   
 
-## toc
+# toc
 
 [Hexo toc(Katalog) 사용하기](https://hangack.github.io/2021/11/22/Blog/Setting/hexo-blog-toc/)에서 toc(Katalog)를 적용해 봤다.
 
 
-## sidebar sticky
+# sidebar sticky
 
 하지만 sidebar가 트래킹되지 않아 불편하다.
 현재 사용하는 icarus테마는 `_config.theme.yml`에서 다양한 옵션을 제공한다. 그 중 `sidebar - left(or right) - sticky`옵션이 트래킹 옵션이다.
@@ -62,7 +62,7 @@ sidebar:
 원하는 방식은 특정 post를 읽을 때만 트래킹되는 방식이었으니 _config.theme.yml의 sticky 값은 다시 `false`로 돌려놓자.
 
 
-## post 개별 설정
+# post 개별 설정
 
 우리에겐 scaffolds 디렉토리 내 post 기본 양식 설정과 `_config.theme.yml`에서 가져올 위젯 및 sidebar의 yml 양식이 있다.
 
@@ -130,5 +130,5 @@ toc: true
 Wa!
 
 
-## 외부링크
+# 외부링크
  - [Hexo Front-matter](https://hexo.io/ko/docs/front-matter.html)

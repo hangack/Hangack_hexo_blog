@@ -38,6 +38,6 @@ date: 2021-12-04 02:33:21
 
 ![](https://steamuserimages-a.akamaihd.net/ugc/1823391714098113676/B619D57ACE99AC554731A7522FF4BA3AA9C6DAF8/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false)
 
-메모리 누수 등으로 프레임 드랍 일어나면 유저, 닭 투척, 트레일러 등 엔티티 속도도 같이 느려져서 자체 하드모드 쌉가능.
+메모리 누수 등으로 프레임 드랍 일어나면 유저, 닭 투척, 트레일 등 엔티티 속도도 같이 느려져서 자체 하드모드 쌉가능.
 
 리부트하면 설치물도 전부 사라짐. 메모리에 할당됐던걸까?

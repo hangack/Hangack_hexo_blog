@@ -36,10 +36,8 @@ toc: true
 date: 2021-12-07 12:09:27
 ---
 
-## Contents
 
-
-## Dynamic plot
+# Dynamic plot
 
 [Kaggle_Survey01 - Pie](https://hangack.github.io/2021/12/02/Codding/Python/kaggle_survey/kaggle-survey01/)
 
@@ -58,7 +56,7 @@ date: 2021-12-07 12:09:27
 <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plotly.com/~hangack/14.embed" height="525" width="100%"></iframe>
 
 
-## Data
+# Data
 - [Kaggle_Survey: 2017](https://www.kaggle.com/kaggle/kaggle-survey-2017)
 - [Kaggle_Survey: 2018](https://www.kaggle.com/kaggle/kaggle-survey-2018)
 - [Kaggle_Survey: 2019](https://www.kaggle.com/c/kaggle-survey-2019)

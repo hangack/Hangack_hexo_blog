@@ -38,9 +38,9 @@ thumbnail: /thumbnails/CS/plotly.svg
 date: 2021-12-05 22:55:24
 ---
 
-## 기본 설정
+# 기본 설정
 
-### module
+## module
 
 treemap으로 많은 요소를 건드리진 않을 예정이니 express 라이브러리를 사용
 
@@ -49,7 +49,7 @@ import pandas as pd
 import plotly.express as px
 ```
 
-### Import data
+## Import data
 
 2021년 자료 외에도 19년 자료를 추가
 
@@ -60,9 +60,9 @@ df19 = pd.read_csv("https://raw.githubusercontent.com/hangack/project-green/main
 #df19 = pd.read_csv("../input/kaggle-survey-2019/multiple_choice_responses.csv", dtype='unicode')
 ```
 
-## Japan & China: Programming_Languages
+# Japan & China: Programming_Languages
 
-### 2021 Japan & China total
+## 2021 Japan & China total
 
 2021년 Q3(Country) 일본 중국 추출 dataframe
 
@@ -70,11 +70,11 @@ df19 = pd.read_csv("https://raw.githubusercontent.com/hangack/project-green/main
 df21_ChJp = df21[df21.Q3.isin(["Japan","China"])]
 ```
 
-### Split Country
+## Split Country
 
 나라별 value_counts를 위해 각 나라로 dataframe 분리
 
-#### 2021
+### 2021
 
 [value_counts 오류 식별](https://hangack.github.io/2021/12/06/Codding/Python/kaggle_survey/kaggle-survey03-a/) 결측값 제거
 
@@ -105,7 +105,7 @@ df21_Ch_PL.insert(0, 'Country',  'China')
 df21_PL_JnC = pd.concat([df21_Jp_PL,df21_Ch_PL], ignore_index=True)
 ```
 
-### 2019 Japan & China total
+## 2019 Japan & China total
 
 2019년 Q3(Country) 일본 중국 추출 dataframe
 
@@ -113,7 +113,7 @@ df21_PL_JnC = pd.concat([df21_Jp_PL,df21_Ch_PL], ignore_index=True)
 df19_ChJp = df19[df19.Q3.isin(["Japan","China"])]
 ```
 
-#### 2019
+### 2019
 
 2021년과 동일 과정
 
@@ -144,7 +144,7 @@ df19_Ch_PL.insert(0, 'Country',  'China')
 df19_PL_JnC = pd.concat([df19_Jp_PL,df19_Ch_PL], ignore_index=True)
 ```
 
-### Split year{Country}
+## Split year{Country}
 
 다른 csv인 2019자료와 2021자료 통합
 
@@ -160,7 +160,7 @@ Program_Language의 19년도 21년도 통합 value_counts의 정렬(연도 - 언
 
 values는 Program_Language의 value_counts
 
-### Programming_Languages [treemap]
+## Programming_Languages [treemap]
 
 이전 언급처럼 treemap으로 많은 요소를 건드리진 않을 예정이니 express 라이브러리를 사용했다.
 

@@ -41,13 +41,13 @@ date: 2021-11-13 15:14:52
 Hexo post는 아래처럼 읽어내지를 못한다.
 ![으아악 아니야!](/images/2111/Hexo_mathjax/hexoNotMath.png)
 
-## Hexo plugin 설치
+# Hexo plugin 설치
 
 다른 블로그 모듈을 사용하는 방법도 있지만, Hexo를 설치했으니 그대로 사용하기 위해 우선 구글링으로 해결해본다.
 검색 결과 hexo에서 사용하는 랜더링 모듈에 수식표현 문법이 포함되어 있지 않아서 발생하는 문제였다.
 
 
-### 기본 renderer 교체
+## 기본 renderer 교체
 
 Hexo의 기본 renderer인 marked를 제거하고 mathjax를 지원하는 kramed로 교체한다.
 
@@ -66,7 +66,7 @@ function formatText(text) {
 }
 ```
 
-### mathjax 설치
+## mathjax 설치
 
 kramed 랜더러에 설정값을 넣어줄 mathjax 랜더러를 설치한다.
 
@@ -81,7 +81,7 @@ $ npm install hexo-renderer-mathjax --save
 
 ```
 
-## Mathjax 활성
+# Mathjax 활성
 
 이제 사용하고 있는 `_config.theme.yml`에서 `mathjax`를 활성화 시켜주면된다.
 
@@ -93,10 +93,10 @@ $ npm install hexo-renderer-mathjax --save
 
 markdown 문법을 사용할 예정이라 문법 추가 설정은 하지 않는다.
 
-## 예제
+# 예제
 [오...](https://hangack.github.io/2021/11/15/Codding/MarkDown/markdown-%EC%88%98%EC%8B%9D-%EB%84%A3%EA%B8%B0/)
 
-## 외부링크
+# 외부링크
 
  - [hexo-math](https://github.com/hexojs/hexo-math)
  - [Hexo 블로그-mathjax](https://hyeshinoh.github.io/2018/10/24/hexo_mathjax_00/)
